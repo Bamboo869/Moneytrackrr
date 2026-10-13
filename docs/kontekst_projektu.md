@@ -3,7 +3,7 @@
 ## 1. Czym jest projekt
 Money Tracker to jednoplikowa aplikacja HTML/CSS/JS do osobistych finansów. Działa w całości w przeglądarce (localStorage), bez backendu. Hostowana na Netlify (*.netlify.app). Używa jej użytkownik i jego partner. Język użytkownika: polski (strefa Europe/Warsaw). Aplikacja ma też wersję EN.
 
-Aktualna wersja: **0.9** (plik `claude/money_tracker_v9.html` w projekcie, ok. 5050 linii, 8 bloków `<script>`). v0.9 = poprawka porównania z poprzednim okresem w oknach podsumowania (`deltaInfo`): przy |zmianie| ≥ 300% pokazuje krotność i różnicę kwotową (▲ ×151 (+4500,00 zł)), przy zmianie znaku samą różnicę kwotową.
+Aktualna wersja: **0.10** (v0.10: słownik EN dla czytnika artykułów, list i panelu autora/publikacji – dopisany blok `Object.assign(I18N_EN.exact,…)` + `I18N_EN.rx.push(…)` zaraz po definicji słownika; administrator w regulaminie: „Tommy”, e-mail nadal do uzupełnienia). Wcześniej v0.9: (plik `claude/money_tracker_v9.html` w projekcie, ok. 5050 linii, 8 bloków `<script>`). v0.9 = poprawka porównania z poprzednim okresem w oknach podsumowania (`deltaInfo`): przy |zmianie| ≥ 300% pokazuje krotność i różnicę kwotową (▲ ×151 (+4500,00 zł)), przy zmianie znaku samą różnicę kwotową.
 
 **Repozytorium:** github.com/Bamboo869/Moneytrackrr (prywatne, gałąź `main`). Źródło prawdy dla kodu: `site/index.html` w repo (Netlify publikuje folder `site/`; `docs/` nie trafia na stronę) (aktualna wersja aplikacji), dokumentacja w `docs/`. Każda wersja = commit z opisem. Na początku nowego czatu: podłączyć repo (add_repo Bamboo869/Moneytrackrr), sklonować i pracować na `site/index.html`. Opublikowane treści (content.json, artykuly/, poradniki/, img/, sitemap.xml, rss.xml, robots.txt) też muszą leżeć w `site/`, inaczej wdrożenie z GitHuba je skasuje.
 
@@ -54,9 +54,8 @@ Aktualna wersja: **0.9** (plik `claude/money_tracker_v9.html` w projekcie, ok. 5
 - Pipeline budowania (skrypty `patch*.py`) nie istnieje. Edytować bezpośrednio najnowszy plik HTML z projektu. Zmiany robić chirurgicznie, nie przepisywać całości.
 
 ## 6. Otwarte sprawy
-- Słownik EN dla nowych tekstów v8 (czytnik artykułów, panel publikacji) – do uzupełnienia.
 - Zrzuty ekranu v8 nie przejrzane wizualnie; czytnik artykułów wymaga kontroli na telefonie.
-- Regulamin: uzupełnić dane administratora (imię/nazwa, e-mail); zalecany przegląd prawnika.
+- Regulamin: administrator = „Tommy”; brakuje e-maila kontaktowego; zalecany przegląd prawnika.
 - Link „Buy me a coffee”: zamienić `TWOJ_NICK`.
 - W panelu publikacji ustawić `baseUrl` (adres Netlify), żeby sitemap/RSS były poprawne.
 - Porównanie okresów zestawia trwający miesiąc z całym poprzednim – rozważyć opcję „do tego samego dnia”.
