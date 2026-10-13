@@ -5,6 +5,8 @@ Money Tracker to jednoplikowa aplikacja HTML/CSS/JS do osobistych finansów. Dzi
 
 Aktualna wersja: **0.9** (plik `claude/money_tracker_v9.html` w projekcie, ok. 5050 linii, 8 bloków `<script>`). v0.9 = poprawka porównania z poprzednim okresem w oknach podsumowania (`deltaInfo`): przy |zmianie| ≥ 300% pokazuje krotność i różnicę kwotową (▲ ×151 (+4500,00 zł)), przy zmianie znaku samą różnicę kwotową.
 
+**Repozytorium:** github.com/Bamboo869/Moneytrackrr (prywatne, gałąź `main`). Źródło prawdy dla kodu: `index.html` w repo (aktualna wersja aplikacji), dokumentacja w `docs/`. Każda wersja = commit z opisem. Na początku nowego czatu: podłączyć repo (add_repo Bamboo869/Moneytrackrr), sklonować i pracować na `index.html`.
+
 ## 2. Funkcje (stan v0.9)
 - Operacje: dodawanie, edycja, szybkie dodawanie, usuwanie z cofnięciem (undo), filtry, wyszukiwarka, import CSV.
 - Kalendarz z kropkami kolorów kategorii; okno dnia z zwijaną sekcją „Zaplanowane”.
