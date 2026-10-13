@@ -12,6 +12,11 @@ Ustalone 13.10.2026. Kolejność ma znaczenie: każdy etap stoi na poprzednim.
 - Kod w repozytorium GitHub (historia wersji, koniec ze znikającymi plikami).
 - Domknięcie spraw v0.8/v0.9: słownik EN, dane w regulaminie, link Buy me a coffee.
 
+## Pomysły zatwierdzone do zrobienia przed Etapem 1
+- PWA (instalacja na komputerze, offline, komunikat „brak połączenia” w wiadomościach).
+- „Codzienna porada” – lokalny silnik reguł (bez AI): przypomnienie o wpisywaniu, wzrost kategorii vs średnia, częste drobne zakupy, wykryte subskrypcje, tempo budżetu, wpływ ograniczenia na cel. Wersja reguł za darmo; AI i raporty tygodniowe jako kandydat do Premium.
+- Wersja mobilna strony (obecnie prawie nie działa na telefonie) – osobny etap, przed instalacją PWA na telefonie.
+
 ## Etap 1 – domena i hosting
 - Domena moneytrackrr.app (sprawdzić cenę odnowienia, nie tylko pierwszego roku).
 - Hosting seohost (SH 1 lub SH 2; sprawdzić cenę odnowienia i możliwość zmiany pakietu).
