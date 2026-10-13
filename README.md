@@ -2,7 +2,8 @@
 
 Darmowy, prywatny tracker finansów osobistych. Działa offline w przeglądarce.
 
-- `index.html` – cała aplikacja (aktualna wersja: 0.9)
+- `site/` – to, co trafia na stronę (Netlify publikuje ten folder)
+- `site/index.html` – cała aplikacja (aktualna wersja: 0.9)
 - `docs/kontekst_projektu.md` – architektura, pułapki, otwarte sprawy
 - `docs/roadmap.md` – plan etapów
 
