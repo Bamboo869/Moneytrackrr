@@ -1,0 +1,2668 @@
+{
+  "catsV": 2,
+  "v": 5,
+  "transactions": [
+    {
+      "id": 100001,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Czynsz",
+      "amount": 2100,
+      "date": "2026-05-01",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 701,
+      "fromPlan": true
+    },
+    {
+      "id": 100008,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 125.48,
+      "date": "2026-05-02",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100016,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 28.05,
+      "date": "2026-05-03",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100032,
+      "category": "c_subs",
+      "desc": "Siłownia",
+      "amount": 129,
+      "date": "2026-05-03",
+      "color": "#8b5cf6",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100005,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Netflix",
+      "amount": 49,
+      "date": "2026-05-05",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 705,
+      "fromPlan": true
+    },
+    {
+      "id": 100009,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 166.37,
+      "date": "2026-05-06",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100027,
+      "category": "c_fuel",
+      "desc": "BP",
+      "amount": 184.77,
+      "date": "2026-05-06",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100034,
+      "category": "invest",
+      "desc": "ETF – XTB",
+      "amount": 300,
+      "date": "2026-05-06",
+      "color": "#f5b027",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100017,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 15.19,
+      "date": "2026-05-07",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100002,
+      "category": "income",
+      "desc": "[Stały przychód] Wypłata",
+      "amount": 7200,
+      "date": "2026-05-10",
+      "color": "#3cd070",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 702,
+      "fromPlan": true
+    },
+    {
+      "id": 100010,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 96.77,
+      "date": "2026-05-10",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100024,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 80.55,
+      "date": "2026-05-10",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100003,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Prąd",
+      "amount": 180,
+      "date": "2026-05-12",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 703,
+      "fromPlan": true
+    },
+    {
+      "id": 100018,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 19.31,
+      "date": "2026-05-12",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100011,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 111.84,
+      "date": "2026-05-14",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100029,
+      "category": "c_fuel",
+      "desc": "Bilet miesięczny",
+      "amount": 110,
+      "date": "2026-05-14",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100031,
+      "category": "c_fun",
+      "desc": "Escape room",
+      "amount": 80.2,
+      "date": "2026-05-14",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100019,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 27.36,
+      "date": "2026-05-16",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100004,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Internet i telefon",
+      "amount": 95,
+      "date": "2026-05-18",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 704,
+      "fromPlan": true
+    },
+    {
+      "id": 100012,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 137.27,
+      "date": "2026-05-18",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100025,
+      "category": "c_food",
+      "desc": "McDonald's",
+      "amount": 62.26,
+      "date": "2026-05-18",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100030,
+      "category": "c_fun",
+      "desc": "Steam",
+      "amount": 93.2,
+      "date": "2026-05-18",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100023,
+      "category": "c_food",
+      "desc": "Starbucks",
+      "amount": 44.63,
+      "date": "2026-05-19",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100028,
+      "category": "c_fuel",
+      "desc": "Orlen",
+      "amount": 219.71,
+      "date": "2026-05-19",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100020,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 17.2,
+      "date": "2026-05-20",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100006,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Spotify",
+      "amount": 24.99,
+      "date": "2026-05-21",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 706,
+      "fromPlan": true
+    },
+    {
+      "id": 100013,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 153.88,
+      "date": "2026-05-22",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100033,
+      "category": "c_shop",
+      "desc": "Rossmann",
+      "amount": 120.47,
+      "date": "2026-05-22",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100021,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 24.06,
+      "date": "2026-05-24",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100007,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Ubezpieczenie auta",
+      "amount": 140,
+      "date": "2026-05-25",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 707,
+      "fromPlan": true
+    },
+    {
+      "id": 100014,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 100.48,
+      "date": "2026-05-26",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100026,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 93.51,
+      "date": "2026-05-27",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100022,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 26.98,
+      "date": "2026-05-28",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100015,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 163.43,
+      "date": "2026-05-30",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100035,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Czynsz",
+      "amount": 2100,
+      "date": "2026-06-01",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 701,
+      "fromPlan": true
+    },
+    {
+      "id": 100042,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 172.37,
+      "date": "2026-06-02",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100059,
+      "category": "c_food",
+      "desc": "Kebab u Ahmeda",
+      "amount": 54.18,
+      "date": "2026-06-02",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100050,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 30.69,
+      "date": "2026-06-03",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100058,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 119.36,
+      "date": "2026-06-03",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100065,
+      "category": "c_subs",
+      "desc": "Siłownia",
+      "amount": 129,
+      "date": "2026-06-03",
+      "color": "#8b5cf6",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100064,
+      "category": "c_fun",
+      "desc": "Steam",
+      "amount": 51.17,
+      "date": "2026-06-04",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100039,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Netflix",
+      "amount": 49,
+      "date": "2026-06-05",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 705,
+      "fromPlan": true
+    },
+    {
+      "id": 100043,
+      "category": "daily_expense",
+      "desc": "Zakupy Auchan",
+      "amount": 156.8,
+      "date": "2026-06-06",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100061,
+      "category": "c_fuel",
+      "desc": "Shell",
+      "amount": 181.81,
+      "date": "2026-06-06",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100070,
+      "category": "invest",
+      "desc": "ETF – XTB",
+      "amount": 300,
+      "date": "2026-06-06",
+      "color": "#f5b027",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100051,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 28.26,
+      "date": "2026-06-07",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100068,
+      "category": "c_health",
+      "desc": "Apteka",
+      "amount": 52.31,
+      "date": "2026-06-09",
+      "color": "#10b981",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100036,
+      "category": "income",
+      "desc": "[Stały przychód] Wypłata",
+      "amount": 7200,
+      "date": "2026-06-10",
+      "color": "#3cd070",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 702,
+      "fromPlan": true
+    },
+    {
+      "id": 100044,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 176.18,
+      "date": "2026-06-10",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100037,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Prąd",
+      "amount": 180,
+      "date": "2026-06-12",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 703,
+      "fromPlan": true
+    },
+    {
+      "id": 100052,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 27.92,
+      "date": "2026-06-12",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100045,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 207.52,
+      "date": "2026-06-14",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100066,
+      "category": "c_shop",
+      "desc": "Zalando",
+      "amount": 219.62,
+      "date": "2026-06-15",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100053,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 24.95,
+      "date": "2026-06-16",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100038,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Internet i telefon",
+      "amount": 95,
+      "date": "2026-06-18",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 704,
+      "fromPlan": true
+    },
+    {
+      "id": 100046,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 137.27,
+      "date": "2026-06-18",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100062,
+      "category": "c_fuel",
+      "desc": "Shell",
+      "amount": 208.44,
+      "date": "2026-06-19",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100054,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 34.16,
+      "date": "2026-06-20",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100063,
+      "category": "c_fun",
+      "desc": "Escape room",
+      "amount": 42.37,
+      "date": "2026-06-20",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100040,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Spotify",
+      "amount": 24.99,
+      "date": "2026-06-21",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 706,
+      "fromPlan": true
+    },
+    {
+      "id": 100047,
+      "category": "daily_expense",
+      "desc": "Zakupy Auchan",
+      "amount": 201.66,
+      "date": "2026-06-22",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100057,
+      "category": "c_food",
+      "desc": "Starbucks",
+      "amount": 56.48,
+      "date": "2026-06-22",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100067,
+      "category": "c_shop",
+      "desc": "Action",
+      "amount": 132.1,
+      "date": "2026-06-22",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100055,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 36.67,
+      "date": "2026-06-24",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100060,
+      "category": "c_food",
+      "desc": "Kebab u Ahmeda",
+      "amount": 109.61,
+      "date": "2026-06-24",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100041,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Ubezpieczenie auta",
+      "amount": 140,
+      "date": "2026-06-25",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 707,
+      "fromPlan": true
+    },
+    {
+      "id": 100048,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 205.25,
+      "date": "2026-06-26",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100069,
+      "category": "c_side",
+      "desc": "Zlecenie freelance",
+      "amount": 800,
+      "date": "2026-06-26",
+      "color": "#84cc16",
+      "notes": "Strona dla klienta",
+      "account": "main"
+    },
+    {
+      "id": 100056,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 25.38,
+      "date": "2026-06-28",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100049,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 156.63,
+      "date": "2026-06-30",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100071,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Czynsz",
+      "amount": 2100,
+      "date": "2026-07-01",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 701,
+      "fromPlan": true
+    },
+    {
+      "id": 100078,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 141.15,
+      "date": "2026-07-02",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100094,
+      "category": "c_food",
+      "desc": "Kebab u Ahmeda",
+      "amount": 64.62,
+      "date": "2026-07-02",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100086,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 26.83,
+      "date": "2026-07-03",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100102,
+      "category": "c_subs",
+      "desc": "Siłownia",
+      "amount": 129,
+      "date": "2026-07-03",
+      "color": "#8b5cf6",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100100,
+      "category": "c_fun",
+      "desc": "Kręgle",
+      "amount": 41.57,
+      "date": "2026-07-04",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100075,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Netflix",
+      "amount": 49,
+      "date": "2026-07-05",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 705,
+      "fromPlan": true
+    },
+    {
+      "id": 100079,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 187.41,
+      "date": "2026-07-06",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100097,
+      "category": "c_fuel",
+      "desc": "Orlen",
+      "amount": 185.39,
+      "date": "2026-07-06",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100104,
+      "category": "invest",
+      "desc": "ETF – XTB",
+      "amount": 300,
+      "date": "2026-07-06",
+      "color": "#f5b027",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100087,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 28.64,
+      "date": "2026-07-07",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100072,
+      "category": "income",
+      "desc": "[Stały przychód] Wypłata",
+      "amount": 7200,
+      "date": "2026-07-10",
+      "color": "#3cd070",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 702,
+      "fromPlan": true
+    },
+    {
+      "id": 100080,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 136.91,
+      "date": "2026-07-10",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100101,
+      "category": "c_fun",
+      "desc": "Kino",
+      "amount": 105.85,
+      "date": "2026-07-11",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100073,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Prąd",
+      "amount": 180,
+      "date": "2026-07-12",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 703,
+      "fromPlan": true
+    },
+    {
+      "id": 100088,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 21.65,
+      "date": "2026-07-12",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100081,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 195.52,
+      "date": "2026-07-14",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100099,
+      "category": "c_fuel",
+      "desc": "Bilet miesięczny",
+      "amount": 110,
+      "date": "2026-07-14",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100095,
+      "category": "c_food",
+      "desc": "Kebab u Ahmeda",
+      "amount": 37.53,
+      "date": "2026-07-15",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100089,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 17.01,
+      "date": "2026-07-16",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100074,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Internet i telefon",
+      "amount": 95,
+      "date": "2026-07-18",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 704,
+      "fromPlan": true
+    },
+    {
+      "id": 100082,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 95.37,
+      "date": "2026-07-18",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100098,
+      "category": "c_fuel",
+      "desc": "Orlen",
+      "amount": 215.25,
+      "date": "2026-07-19",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100090,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 34.62,
+      "date": "2026-07-20",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100076,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Spotify",
+      "amount": 24.99,
+      "date": "2026-07-21",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 706,
+      "fromPlan": true
+    },
+    {
+      "id": 100083,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 167.31,
+      "date": "2026-07-22",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100103,
+      "category": "c_shop",
+      "desc": "IKEA",
+      "amount": 54.64,
+      "date": "2026-07-22",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100091,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 36.81,
+      "date": "2026-07-24",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100093,
+      "category": "c_food",
+      "desc": "Starbucks",
+      "amount": 101.4,
+      "date": "2026-07-24",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100077,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Ubezpieczenie auta",
+      "amount": 140,
+      "date": "2026-07-25",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 707,
+      "fromPlan": true
+    },
+    {
+      "id": 100084,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 188.89,
+      "date": "2026-07-26",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100092,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 29.72,
+      "date": "2026-07-28",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100096,
+      "category": "c_food",
+      "desc": "Starbucks",
+      "amount": 64.84,
+      "date": "2026-07-29",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100085,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 120.24,
+      "date": "2026-07-30",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100105,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Czynsz",
+      "amount": 2100,
+      "date": "2026-08-01",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 701,
+      "fromPlan": true
+    },
+    {
+      "id": 100112,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 130.45,
+      "date": "2026-08-02",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100120,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 14.55,
+      "date": "2026-08-03",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100129,
+      "category": "c_food",
+      "desc": "McDonald's",
+      "amount": 77.0,
+      "date": "2026-08-03",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100135,
+      "category": "c_subs",
+      "desc": "Siłownia",
+      "amount": 129,
+      "date": "2026-08-03",
+      "color": "#8b5cf6",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100109,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Netflix",
+      "amount": 49,
+      "date": "2026-08-05",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 705,
+      "fromPlan": true
+    },
+    {
+      "id": 100113,
+      "category": "daily_expense",
+      "desc": "Zakupy Auchan",
+      "amount": 194.29,
+      "date": "2026-08-06",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100131,
+      "category": "c_fuel",
+      "desc": "Orlen",
+      "amount": 229.06,
+      "date": "2026-08-06",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100139,
+      "category": "invest",
+      "desc": "ETF – XTB",
+      "amount": 300,
+      "date": "2026-08-06",
+      "color": "#f5b027",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100121,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 36.82,
+      "date": "2026-08-07",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100138,
+      "category": "c_health",
+      "desc": "Apteka",
+      "amount": 50.97,
+      "date": "2026-08-09",
+      "color": "#10b981",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100106,
+      "category": "income",
+      "desc": "[Stały przychód] Wypłata",
+      "amount": 7200,
+      "date": "2026-08-10",
+      "color": "#3cd070",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 702,
+      "fromPlan": true
+    },
+    {
+      "id": 100114,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 164.3,
+      "date": "2026-08-10",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100107,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Prąd",
+      "amount": 180,
+      "date": "2026-08-12",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 703,
+      "fromPlan": true
+    },
+    {
+      "id": 100122,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 26.68,
+      "date": "2026-08-12",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100134,
+      "category": "c_fun",
+      "desc": "Escape room",
+      "amount": 79.45,
+      "date": "2026-08-13",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100115,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 130.52,
+      "date": "2026-08-14",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100136,
+      "category": "c_shop",
+      "desc": "Zalando",
+      "amount": 184.64,
+      "date": "2026-08-15",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100123,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 17.52,
+      "date": "2026-08-16",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100108,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Internet i telefon",
+      "amount": 95,
+      "date": "2026-08-18",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 704,
+      "fromPlan": true
+    },
+    {
+      "id": 100116,
+      "category": "daily_expense",
+      "desc": "Zakupy Auchan",
+      "amount": 191.12,
+      "date": "2026-08-18",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100132,
+      "category": "c_fuel",
+      "desc": "Orlen",
+      "amount": 244.49,
+      "date": "2026-08-19",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100124,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 27.04,
+      "date": "2026-08-20",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100110,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Spotify",
+      "amount": 24.99,
+      "date": "2026-08-21",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 706,
+      "fromPlan": true
+    },
+    {
+      "id": 100127,
+      "category": "c_food",
+      "desc": "Sushi Kushi",
+      "amount": 75.69,
+      "date": "2026-08-21",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100117,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 145.48,
+      "date": "2026-08-22",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100137,
+      "category": "c_shop",
+      "desc": "Rossmann",
+      "amount": 120.06,
+      "date": "2026-08-22",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100130,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 58.33,
+      "date": "2026-08-23",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100125,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 14.65,
+      "date": "2026-08-24",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100111,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Ubezpieczenie auta",
+      "amount": 140,
+      "date": "2026-08-25",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 707,
+      "fromPlan": true
+    },
+    {
+      "id": 100118,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 97.77,
+      "date": "2026-08-26",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100133,
+      "category": "c_fun",
+      "desc": "Koncert",
+      "amount": 59.99,
+      "date": "2026-08-27",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100126,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 26.67,
+      "date": "2026-08-28",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100128,
+      "category": "c_food",
+      "desc": "McDonald's",
+      "amount": 60.72,
+      "date": "2026-08-28",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100119,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 118.09,
+      "date": "2026-08-30",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100140,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Czynsz",
+      "amount": 2100,
+      "date": "2026-09-01",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 701,
+      "fromPlan": true
+    },
+    {
+      "id": 100170,
+      "category": "c_fun",
+      "desc": "Kino",
+      "amount": 100.82,
+      "date": "2026-09-01",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100147,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 109.21,
+      "date": "2026-09-02",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100155,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 35.34,
+      "date": "2026-09-03",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100163,
+      "category": "c_food",
+      "desc": "Kebab u Ahmeda",
+      "amount": 102.2,
+      "date": "2026-09-03",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100171,
+      "category": "c_subs",
+      "desc": "Siłownia",
+      "amount": 129,
+      "date": "2026-09-03",
+      "color": "#8b5cf6",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100144,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Netflix",
+      "amount": 49,
+      "date": "2026-09-05",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 705,
+      "fromPlan": true
+    },
+    {
+      "id": 100165,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 118.19,
+      "date": "2026-09-05",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100169,
+      "category": "c_fun",
+      "desc": "Kino",
+      "amount": 134.92,
+      "date": "2026-09-05",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100148,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 186.07,
+      "date": "2026-09-06",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100164,
+      "category": "c_food",
+      "desc": "McDonald's",
+      "amount": 84.26,
+      "date": "2026-09-06",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100166,
+      "category": "c_fuel",
+      "desc": "BP",
+      "amount": 255.0,
+      "date": "2026-09-06",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100174,
+      "category": "invest",
+      "desc": "ETF – XTB",
+      "amount": 300,
+      "date": "2026-09-06",
+      "color": "#f5b027",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100156,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 24.41,
+      "date": "2026-09-07",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100141,
+      "category": "income",
+      "desc": "[Stały przychód] Wypłata",
+      "amount": 7200,
+      "date": "2026-09-10",
+      "color": "#3cd070",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 702,
+      "fromPlan": true
+    },
+    {
+      "id": 100149,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 95.07,
+      "date": "2026-09-10",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100142,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Prąd",
+      "amount": 180,
+      "date": "2026-09-12",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 703,
+      "fromPlan": true
+    },
+    {
+      "id": 100157,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 29.26,
+      "date": "2026-09-12",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100150,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 143.76,
+      "date": "2026-09-14",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100168,
+      "category": "c_fuel",
+      "desc": "Bilet miesięczny",
+      "amount": 110,
+      "date": "2026-09-14",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100158,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 16.08,
+      "date": "2026-09-16",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100143,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Internet i telefon",
+      "amount": 95,
+      "date": "2026-09-18",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 704,
+      "fromPlan": true
+    },
+    {
+      "id": 100151,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 145.33,
+      "date": "2026-09-18",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100167,
+      "category": "c_fuel",
+      "desc": "Orlen",
+      "amount": 223.89,
+      "date": "2026-09-19",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100159,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 36.71,
+      "date": "2026-09-20",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100145,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Spotify",
+      "amount": 24.99,
+      "date": "2026-09-21",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 706,
+      "fromPlan": true
+    },
+    {
+      "id": 100152,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 198.65,
+      "date": "2026-09-22",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100172,
+      "category": "c_shop",
+      "desc": "Rossmann",
+      "amount": 86.21,
+      "date": "2026-09-22",
+      "color": "#ec4899",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100160,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 31.32,
+      "date": "2026-09-24",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100162,
+      "category": "c_food",
+      "desc": "Pizza Hut",
+      "amount": 41.91,
+      "date": "2026-09-24",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100146,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Ubezpieczenie auta",
+      "amount": 140,
+      "date": "2026-09-25",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 707,
+      "fromPlan": true
+    },
+    {
+      "id": 100153,
+      "category": "daily_expense",
+      "desc": "Zakupy Biedronka",
+      "amount": 95.6,
+      "date": "2026-09-26",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100173,
+      "category": "c_side",
+      "desc": "Zlecenie freelance",
+      "amount": 800,
+      "date": "2026-09-26",
+      "color": "#84cc16",
+      "notes": "Strona dla klienta",
+      "account": "main"
+    },
+    {
+      "id": 100161,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 25.12,
+      "date": "2026-09-28",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100154,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 182.79,
+      "date": "2026-09-30",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100175,
+      "category": "fixed_expense",
+      "desc": "[Stała opłata] Czynsz",
+      "amount": 2100,
+      "date": "2026-10-01",
+      "color": "#aa66ff",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 701,
+      "fromPlan": true
+    },
+    {
+      "id": 100182,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 28.61,
+      "date": "2026-10-01",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100178,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 254.16,
+      "date": "2026-10-02",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100183,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 32.62,
+      "date": "2026-10-02",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100193,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 117.55,
+      "date": "2026-10-02",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100196,
+      "category": "c_subs",
+      "desc": "Siłownia",
+      "amount": 129,
+      "date": "2026-10-03",
+      "color": "#8b5cf6",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100184,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 17.6,
+      "date": "2026-10-04",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100192,
+      "category": "c_food",
+      "desc": "Pizza Hut",
+      "amount": 74.71,
+      "date": "2026-10-04",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100199,
+      "category": "c_fun",
+      "desc": "Kino – Diuna 3",
+      "amount": 64,
+      "date": "2026-10-04",
+      "color": "#22c3c3",
+      "notes": "Z Kasią",
+      "account": "main"
+    },
+    {
+      "id": 100177,
+      "category": "c_subs",
+      "desc": "[Stała opłata] Netflix",
+      "amount": 49,
+      "date": "2026-10-05",
+      "color": "#8b5cf6",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 705,
+      "fromPlan": true
+    },
+    {
+      "id": 100185,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 17.4,
+      "date": "2026-10-05",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100179,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 157.25,
+      "date": "2026-10-06",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100186,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 28.86,
+      "date": "2026-10-06",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100195,
+      "category": "c_fuel",
+      "desc": "BP",
+      "amount": 202.17,
+      "date": "2026-10-06",
+      "color": "#4d90fe",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100198,
+      "category": "invest",
+      "desc": "ETF – XTB",
+      "amount": 300,
+      "date": "2026-10-06",
+      "color": "#f5b027",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100187,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 16.89,
+      "date": "2026-10-08",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100194,
+      "category": "c_food",
+      "desc": "Pyszne.pl",
+      "amount": 75.12,
+      "date": "2026-10-08",
+      "color": "#ff6b6b",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100188,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 15.48,
+      "date": "2026-10-09",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100197,
+      "category": "c_health",
+      "desc": "Apteka",
+      "amount": 32.54,
+      "date": "2026-10-09",
+      "color": "#10b981",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100200,
+      "category": "c_fun",
+      "desc": "Steam",
+      "amount": 89,
+      "date": "2026-10-09",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100176,
+      "category": "income",
+      "desc": "[Stały przychód] Wypłata",
+      "amount": 7200,
+      "date": "2026-10-10",
+      "color": "#3cd070",
+      "notes": "Operacja cykliczna",
+      "account": "main",
+      "recId": 702,
+      "fromPlan": true
+    },
+    {
+      "id": 100180,
+      "category": "daily_expense",
+      "desc": "Zakupy Kaufland",
+      "amount": 155.34,
+      "date": "2026-10-10",
+      "color": "#ff9f43",
+      "notes": "Tygodniowe zapasy",
+      "account": "main"
+    },
+    {
+      "id": 100189,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 30.38,
+      "date": "2026-10-11",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100201,
+      "category": "c_shop",
+      "desc": "Słuchawki Sony",
+      "amount": 1199,
+      "date": "2026-10-11",
+      "color": "#ec4899",
+      "notes": "Promocja -30%",
+      "account": "main"
+    },
+    {
+      "id": 100190,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 26.74,
+      "date": "2026-10-12",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100191,
+      "category": "daily_expense",
+      "desc": "Żabka",
+      "amount": 25.58,
+      "date": "2026-10-13",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100181,
+      "category": "daily_expense",
+      "desc": "Zakupy Lidl",
+      "amount": 206.61,
+      "date": "2026-10-14",
+      "color": "#ff9f43",
+      "notes": "",
+      "account": "main"
+    },
+    {
+      "id": 100202,
+      "category": "c_fun",
+      "desc": "Urodziny Kasi – prezent",
+      "amount": 250,
+      "date": "2026-10-22",
+      "color": "#22c3c3",
+      "notes": "Zaplanowane",
+      "account": "main",
+      "planned": true
+    },
+    {
+      "id": 100203,
+      "category": "c_fun",
+      "desc": "Wyjazd w góry",
+      "amount": 600,
+      "date": "2026-10-30",
+      "color": "#22c3c3",
+      "notes": "",
+      "account": "main",
+      "planned": true
+    }
+  ],
+  "recurring": [
+    {
+      "id": 701,
+      "name": "Czynsz",
+      "amount": 2100,
+      "day": 1,
+      "color": "#aa66ff",
+      "category": "fixed_expense",
+      "auto": true
+    },
+    {
+      "id": 702,
+      "name": "Wypłata",
+      "amount": 7200,
+      "day": 10,
+      "color": "#3cd070",
+      "category": "income",
+      "auto": true
+    },
+    {
+      "id": 703,
+      "name": "Prąd",
+      "amount": 180,
+      "day": 12,
+      "color": "#aa66ff",
+      "category": "fixed_expense",
+      "auto": false
+    },
+    {
+      "id": 704,
+      "name": "Internet i telefon",
+      "amount": 95,
+      "day": 18,
+      "color": "#aa66ff",
+      "category": "fixed_expense",
+      "auto": false
+    },
+    {
+      "id": 705,
+      "name": "Netflix",
+      "amount": 49,
+      "day": 5,
+      "color": "#8b5cf6",
+      "category": "c_subs",
+      "auto": true
+    },
+    {
+      "id": 706,
+      "name": "Spotify",
+      "amount": 24.99,
+      "day": 21,
+      "color": "#8b5cf6",
+      "category": "c_subs",
+      "auto": true
+    },
+    {
+      "id": 707,
+      "name": "Ubezpieczenie auta",
+      "amount": 140,
+      "day": 25,
+      "color": "#aa66ff",
+      "category": "fixed_expense",
+      "auto": false
+    },
+    {
+      "id": 708,
+      "kind": "goal",
+      "goalId": "g_trip",
+      "from": "main",
+      "to": "a_save",
+      "name": "→ Wakacje w Grecji",
+      "amount": 500,
+      "day": 11,
+      "color": "#22c3c3",
+      "category": "",
+      "auto": true
+    },
+    {
+      "id": 709,
+      "kind": "goal",
+      "goalId": "g_cushion",
+      "from": "main",
+      "to": "a_save",
+      "name": "→ Poduszka finansowa",
+      "amount": 400,
+      "day": 11,
+      "color": "#3cd070",
+      "category": "",
+      "auto": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "daily_expense",
+      "name": "Zakupy spożywcze",
+      "icon": "🛒",
+      "color": "#ff9f43",
+      "type": "exp"
+    },
+    {
+      "id": "fixed_expense",
+      "name": "Rachunki",
+      "icon": "🏠",
+      "color": "#aa66ff",
+      "type": "exp"
+    },
+    {
+      "id": "income",
+      "name": "Przychód",
+      "icon": "💰",
+      "color": "#3cd070",
+      "type": "inc"
+    },
+    {
+      "id": "invest",
+      "name": "Inwestycje",
+      "icon": "📈",
+      "color": "#f5b027",
+      "type": "exp"
+    },
+    {
+      "id": "goal_savings",
+      "name": "Oszczędności",
+      "icon": "🐷",
+      "color": "#ff5fa2",
+      "type": "exp"
+    },
+    {
+      "id": "c_food",
+      "name": "Jedzenie na mieście",
+      "icon": "🍕",
+      "color": "#ff6b6b",
+      "type": "exp"
+    },
+    {
+      "id": "c_fuel",
+      "name": "Transport",
+      "icon": "⛽",
+      "color": "#4d90fe",
+      "type": "exp"
+    },
+    {
+      "id": "c_fun",
+      "name": "Rozrywka",
+      "icon": "🎬",
+      "color": "#22c3c3",
+      "type": "exp"
+    },
+    {
+      "id": "c_subs",
+      "name": "Subskrypcje",
+      "icon": "📺",
+      "color": "#8b5cf6",
+      "type": "exp"
+    },
+    {
+      "id": "c_shop",
+      "name": "Zakupy",
+      "icon": "🛍️",
+      "color": "#ec4899",
+      "type": "exp"
+    },
+    {
+      "id": "c_health",
+      "name": "Zdrowie",
+      "icon": "💊",
+      "color": "#10b981",
+      "type": "exp"
+    },
+    {
+      "id": "c_side",
+      "name": "Dodatkowy przychód",
+      "icon": "💼",
+      "color": "#84cc16",
+      "type": "inc"
+    }
+  ],
+  "cards": [
+    {
+      "id": "balance",
+      "name": "Saldo",
+      "desc": "Przychody minus wszystkie wydatki.",
+      "color": "#4d90fe",
+      "cats": []
+    },
+    {
+      "id": "k_inc",
+      "name": "Przychody",
+      "desc": "",
+      "color": "#3cd070",
+      "cats": [
+        "income",
+        "c_side"
+      ]
+    },
+    {
+      "id": "k_food",
+      "name": "Jedzenie",
+      "desc": "Sklepy + na mieście",
+      "color": "#ff9f43",
+      "cats": [
+        "daily_expense",
+        "c_food"
+      ]
+    },
+    {
+      "id": "k_fixed",
+      "name": "Rachunki i subskrypcje",
+      "desc": "",
+      "color": "#aa66ff",
+      "cats": [
+        "fixed_expense",
+        "c_subs"
+      ]
+    },
+    {
+      "id": "k_life",
+      "name": "Styl życia",
+      "desc": "Rozrywka, zakupy, transport",
+      "color": "#ec4899",
+      "cats": [
+        "c_fun",
+        "c_shop",
+        "c_fuel"
+      ]
+    },
+    {
+      "id": "k_inv",
+      "name": "Inwestycje",
+      "desc": "",
+      "color": "#f5b027",
+      "cats": [
+        "invest",
+        "goal_savings"
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "id": "b_food",
+      "name": "Jedzenie",
+      "limit": 1500,
+      "color": "#ff9f43",
+      "cats": [
+        "daily_expense",
+        "c_food"
+      ]
+    },
+    {
+      "id": "b_fun",
+      "name": "Rozrywka",
+      "limit": 300,
+      "color": "#22c3c3",
+      "cats": [
+        "c_fun"
+      ]
+    },
+    {
+      "id": "b_fuel",
+      "name": "Transport",
+      "limit": 450,
+      "color": "#4d90fe",
+      "cats": [
+        "c_fuel"
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "g_trip",
+      "name": "Wakacje w Grecji",
+      "icon": "🏖️",
+      "color": "#22c3c3",
+      "target": 6000,
+      "deadline": "2027-06-30",
+      "account": "a_save",
+      "deposits": [
+        {
+          "id": "d_708_5",
+          "date": "2026-05-11",
+          "amount": 500,
+          "recId": 708
+        },
+        {
+          "id": "d_708_6",
+          "date": "2026-06-11",
+          "amount": 500,
+          "recId": 708
+        },
+        {
+          "id": "d_708_7",
+          "date": "2026-07-11",
+          "amount": 500,
+          "recId": 708
+        },
+        {
+          "id": "d_708_8",
+          "date": "2026-08-11",
+          "amount": 500,
+          "recId": 708
+        },
+        {
+          "id": "d_708_9",
+          "date": "2026-09-11",
+          "amount": 500,
+          "recId": 708
+        },
+        {
+          "id": "d_708_10",
+          "date": "2026-10-11",
+          "amount": 500,
+          "recId": 708
+        }
+      ]
+    },
+    {
+      "id": "g_cushion",
+      "name": "Poduszka finansowa",
+      "icon": "🛟",
+      "color": "#3cd070",
+      "target": 15000,
+      "deadline": "",
+      "account": "a_save",
+      "deposits": [
+        {
+          "id": "d_709_5",
+          "date": "2026-05-11",
+          "amount": 400,
+          "recId": 709
+        },
+        {
+          "id": "d_709_6",
+          "date": "2026-06-11",
+          "amount": 400,
+          "recId": 709
+        },
+        {
+          "id": "d_709_7",
+          "date": "2026-07-11",
+          "amount": 400,
+          "recId": 709
+        },
+        {
+          "id": "d_709_8",
+          "date": "2026-08-11",
+          "amount": 400,
+          "recId": 709
+        },
+        {
+          "id": "d_709_9",
+          "date": "2026-09-11",
+          "amount": 400,
+          "recId": 709
+        },
+        {
+          "id": "d_709_10",
+          "date": "2026-10-11",
+          "amount": 400,
+          "recId": 709
+        }
+      ]
+    },
+    {
+      "id": "g_laptop",
+      "name": "Nowy laptop",
+      "icon": "💻",
+      "color": "#aa66ff",
+      "target": 4500,
+      "deadline": "2027-03-01",
+      "account": "a_save",
+      "deposits": [
+        {
+          "id": "d_lap1",
+          "date": "2026-09-27",
+          "amount": 800
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "id": "main",
+      "name": "Konto główne",
+      "icon": "💳",
+      "color": "#4d90fe",
+      "start": 2400
+    },
+    {
+      "id": "a_save",
+      "name": "Oszczędności",
+      "icon": "🏦",
+      "color": "#3cd070",
+      "start": 3000
+    },
+    {
+      "id": "a_cash",
+      "name": "Gotówka",
+      "icon": "💵",
+      "color": "#f5b027",
+      "start": 300
+    }
+  ],
+  "transfers": [
+    {
+      "id": "t_708_5",
+      "from": "main",
+      "to": "a_save",
+      "amount": 500,
+      "date": "2026-05-11",
+      "note": "Cel: Wakacje w Grecji",
+      "recId": 708,
+      "goalId": "g_trip",
+      "depId": "d_708_5"
+    },
+    {
+      "id": "t_709_5",
+      "from": "main",
+      "to": "a_save",
+      "amount": 400,
+      "date": "2026-05-11",
+      "note": "Cel: Poduszka finansowa",
+      "recId": 709,
+      "goalId": "g_cushion",
+      "depId": "d_709_5"
+    },
+    {
+      "id": "t_708_6",
+      "from": "main",
+      "to": "a_save",
+      "amount": 500,
+      "date": "2026-06-11",
+      "note": "Cel: Wakacje w Grecji",
+      "recId": 708,
+      "goalId": "g_trip",
+      "depId": "d_708_6"
+    },
+    {
+      "id": "t_709_6",
+      "from": "main",
+      "to": "a_save",
+      "amount": 400,
+      "date": "2026-06-11",
+      "note": "Cel: Poduszka finansowa",
+      "recId": 709,
+      "goalId": "g_cushion",
+      "depId": "d_709_6"
+    },
+    {
+      "id": "t_708_7",
+      "from": "main",
+      "to": "a_save",
+      "amount": 500,
+      "date": "2026-07-11",
+      "note": "Cel: Wakacje w Grecji",
+      "recId": 708,
+      "goalId": "g_trip",
+      "depId": "d_708_7"
+    },
+    {
+      "id": "t_709_7",
+      "from": "main",
+      "to": "a_save",
+      "amount": 400,
+      "date": "2026-07-11",
+      "note": "Cel: Poduszka finansowa",
+      "recId": 709,
+      "goalId": "g_cushion",
+      "depId": "d_709_7"
+    },
+    {
+      "id": "t_708_8",
+      "from": "main",
+      "to": "a_save",
+      "amount": 500,
+      "date": "2026-08-11",
+      "note": "Cel: Wakacje w Grecji",
+      "recId": 708,
+      "goalId": "g_trip",
+      "depId": "d_708_8"
+    },
+    {
+      "id": "t_709_8",
+      "from": "main",
+      "to": "a_save",
+      "amount": 400,
+      "date": "2026-08-11",
+      "note": "Cel: Poduszka finansowa",
+      "recId": 709,
+      "goalId": "g_cushion",
+      "depId": "d_709_8"
+    },
+    {
+      "id": "t_708_9",
+      "from": "main",
+      "to": "a_save",
+      "amount": 500,
+      "date": "2026-09-11",
+      "note": "Cel: Wakacje w Grecji",
+      "recId": 708,
+      "goalId": "g_trip",
+      "depId": "d_708_9"
+    },
+    {
+      "id": "t_709_9",
+      "from": "main",
+      "to": "a_save",
+      "amount": 400,
+      "date": "2026-09-11",
+      "note": "Cel: Poduszka finansowa",
+      "recId": 709,
+      "goalId": "g_cushion",
+      "depId": "d_709_9"
+    },
+    {
+      "id": "t_708_10",
+      "from": "main",
+      "to": "a_save",
+      "amount": 500,
+      "date": "2026-10-11",
+      "note": "Cel: Wakacje w Grecji",
+      "recId": 708,
+      "goalId": "g_trip",
+      "depId": "d_708_10"
+    },
+    {
+      "id": "t_709_10",
+      "from": "main",
+      "to": "a_save",
+      "amount": 400,
+      "date": "2026-10-11",
+      "note": "Cel: Poduszka finansowa",
+      "recId": 709,
+      "goalId": "g_cushion",
+      "depId": "d_709_10"
+    },
+    {
+      "id": "t_lap1",
+      "from": "main",
+      "to": "a_save",
+      "amount": 800,
+      "date": "2026-09-27",
+      "note": "Cel: Nowy laptop",
+      "goalId": "g_laptop",
+      "depId": "d_lap1"
+    },
+    {
+      "id": "t_cash1",
+      "from": "main",
+      "to": "a_cash",
+      "amount": 200,
+      "date": "2026-10-03",
+      "note": "Bankomat"
+    }
+  ]
+}
