@@ -1,7 +1,8 @@
 # Dane pokazowe (do nagrywania filmów)
 
 - `money_tracker_showcase_pl.json` – wersja polska
-- `money_tracker_showcase_en.json` – wersja angielska
+- `money_tracker_showcase_en.json` – wersja angielska (złotówki)
+- `money_tracker_showcase_en_usd.json` – wersja angielska w dolarach, z amerykańskimi sklepami (sama ustawia walutę USD)
 
 Wczytanie: 💾 → „Wczytaj dane (JSON)”. **Najpierw pobierz kopię swoich danych** – import zastępuje dane w przeglądarce.
 Najlepiej nagrywać w osobnym profilu przeglądarki / oknie incognito.
