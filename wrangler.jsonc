@@ -1,0 +1,9 @@
+// Cloudflare Workers – hosting statycznej strony z folderu site/ (bez kodu serwera).
+// "name" musi być taki sam jak nazwa projektu w panelu Cloudflare.
+{
+  "name": "moneytrackrr",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./site"
+  }
+}
