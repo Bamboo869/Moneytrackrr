@@ -4,7 +4,7 @@
  * a bez internetu aplikacja dalej działa.
  * Przy każdej wersji aplikacji podbij CACHE, żeby stare kopie zostały usunięte.
  */
-const CACHE = 'mt-v0.19.4';
+const CACHE = 'mt-v0.19.5';
 const PRECACHE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon.svg'];
 const NET_TIMEOUT = 4000; // ms – przy słabym zasięgu nie czekamy w nieskończoność
 
