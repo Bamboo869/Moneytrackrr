@@ -15,6 +15,7 @@ NEW=[ # key, kind, slug, tag, date, cover, alt, featured
  ('g1','guide','obligacje-skarbowe-jak-wybrac','Oszczędzanie','2026-10-16','1633158829875-e5316a358c6f','Słoik z monetami i małą roślinką',False),
  ('g2','guide','jak-wyjsc-z-dlugow','Długi','2026-10-16','1563013544-824ae1b704d3','Osoba przy laptopie trzymająca kartę płatniczą',False),
  ('t1','guide','pierwsze-kroki-money-trackrr','Aplikacja','2026-10-16','1709880945165-d2208c6ad2ec','Kalkulator obok laptopa',False),
+ ('t5','guide','jak-zainstalowac-aplikacje','Aplikacja','2026-10-16','1554224155-8d04cb21cd6c','Smartfon z otwartą aplikacją',False),
  ('t2','guide','budzety-cele-stale-oplaty','Aplikacja','2026-10-16','1578091436046-ecd3f4fe6992','Słoik z monetami z napisem „house fund”',False),
  ('t3','guide','pieniazek-porady-bez-ai','Aplikacja','2026-10-16','1619718082268-5a1b74988497','Złote i srebrne monety',False),
  ('t4','guide','kopia-zapasowa-telefon','Aplikacja','2026-10-16','1713947506242-8fcae733d158','Kobieta przy stole patrząca w telefon',False),
