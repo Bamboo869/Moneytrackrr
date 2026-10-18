@@ -8,7 +8,9 @@ def md(fn):
   title,summary=head.split('\n',1)
   return title.strip(),summary.strip(),body.strip()
 NEW=[ # key, kind, slug, tag, date, cover, alt, featured
- ('n1','news','ropa-ormuz-portfel','Paliwa','2026-10-15','1518527989017-5baca7a58d3c','Tankowiec na morzu widziany z góry',True),
+ ('n5','news','rosja-polska-grozby-finanse','Bezpieczeństwo','2026-10-18','1740759009286-606a45347231','Polska flaga na wietrze',True),
+ ('n6','news','ai-banka-wstrzas-gieldy-pazdziernik-2026','Rynki','2026-10-17','1562408590-e32931084e23','Niebieska płytka drukowana',False),
+ ('n1','news','ropa-ormuz-portfel','Paliwa','2026-10-15','1518527989017-5baca7a58d3c','Tankowiec na morzu widziany z góry',False),
  ('n2','news','inflacja-wrzesien-2026-stopy-nbp','Inflacja','2026-10-14','1601598851547-4302969d0614','Wózek sklepowy w alejce supermarketu',False),
  ('n3','news','fed-ebc-podwyzki-stop-2026','Rynki','2026-10-12','1701434001217-16428abc6309','Rzeźba ze znakiem euro przed siedzibą banku we Frankfurcie',False),
  ('n4','news','placa-minimalna-2027','Praca','2026-10-10','1504307651254-35680f356dfd','Dwóch pracowników przy pracy',False),
