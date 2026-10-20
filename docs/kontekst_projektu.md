@@ -49,6 +49,7 @@ Aktualna wersja: **0.20** (v0.20: Google AdSense `ca-pub-6452210585951054` – m
 13. **Publikacja artykułów:** Netlify wdraża teraz z GitHuba (folder `site/`). Nie przeciągać ZIP-a z panelu na Netlify (nadpisałby sw.js/manifest i zniknąłby przy następnym commicie). Pliki z ZIP-a (bez index.html) wrzucić do `site/` w repo – do czasu backendu (Etap 2).
 11. Stopka wersji ma swój wpis w słowniku EN („© Money Tracker · wersja X”) – podbijać oba.
 15. **Wzorce tłumaczeń (`I18N_EN.rx`) a wydajność (v0.20.3):** wzorzec z kilkoma `(.+)` potrafił na długim tekście zawiesić stronę po angielsku na 6 s (komputer) do 26 s (telefon). Teraz `trStr` pomija wzorce dla tekstów dłuższych niż 240 znaków. Nowe wzorce pisać z klasami typu `[^:]+` zamiast `.+`, a po zmianach mierzyć ładowanie w wersji EN (Playwright z `locale='en-US'` i dławieniem CPU 4×).
+17. **Motywy (v0.21):** nowy motyw dopisać bezpośrednio do literału `THEMES` (blok v6) i `ACC` – sprawdzenie `if(!THEMES[S.theme])` przy starcie resetuje nieznany motyw do ciemnego. Motyw Halloween: zmienne `[data-theme=halloween]`, warstwa `#spooky` (fixed, z-index:-1) i `#spookyHero` (wewnątrz sticky `.hero`, bo nagłówek ma własne tło i zasłania warstwę fixed); `applyTheme` owinięty, `toggleSpooky()` pamięta poprzedni motyw w `S.prevTheme`.
 16. **Tytuł strony** ustawia też skrypt przy zmianie języka (`setLang`) – zmieniając `<title>`, poprawić oba miejsca.
 
 ## 5. Zasady pracy z użytkownikiem
