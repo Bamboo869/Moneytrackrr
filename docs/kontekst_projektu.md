@@ -48,6 +48,8 @@ Aktualna wersja: **0.20** (v0.20: Google AdSense `ca-pub-6452210585951054` – m
 14. **Nazwy funkcji w IIFE:** lokalna funkcja o nazwie globalnej (np. `go`) przesłania globalną – w v0.15 samouczek miał własne `go()` i nie przełączał widoku. Do globalnych funkcji z wnętrza modułów odwoływać się przez `window.go` albo nadawać lokalnym unikalne nazwy.
 13. **Publikacja artykułów:** Netlify wdraża teraz z GitHuba (folder `site/`). Nie przeciągać ZIP-a z panelu na Netlify (nadpisałby sw.js/manifest i zniknąłby przy następnym commicie). Pliki z ZIP-a (bez index.html) wrzucić do `site/` w repo – do czasu backendu (Etap 2).
 11. Stopka wersji ma swój wpis w słowniku EN („© Money Tracker · wersja X”) – podbijać oba.
+15. **Wzorce tłumaczeń (`I18N_EN.rx`) a wydajność (v0.20.3):** wzorzec z kilkoma `(.+)` potrafił na długim tekście zawiesić stronę po angielsku na 6 s (komputer) do 26 s (telefon). Teraz `trStr` pomija wzorce dla tekstów dłuższych niż 240 znaków. Nowe wzorce pisać z klasami typu `[^:]+` zamiast `.+`, a po zmianach mierzyć ładowanie w wersji EN (Playwright z `locale='en-US'` i dławieniem CPU 4×).
+16. **Tytuł strony** ustawia też skrypt przy zmianie języka (`setLang`) – zmieniając `<title>`, poprawić oba miejsca.
 
 ## 5. Zasady pracy z użytkownikiem
 - **Aktualizacje na Home:** drobne poprawki (wersje typu 0.x.y) NIE dostają osobnego wpisu – dopisujemy je do wpisu najbliższej większej wersji albo scalamy. Jeden wpis = jedna funkcja/zestaw zmian, bez „śmiecenia” poprawkami (prośba użytkownika z 13.10.2026).
