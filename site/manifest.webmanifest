@@ -1,6 +1,6 @@
 {
-  "name": "Money Tracker",
-  "short_name": "Money Tracker",
+  "name": "Money Trackrr",
+  "short_name": "Money Trackrr",
   "description": "Darmowy, prywatny tracker wydatków i budżetu. Działa offline, dane zostają w Twojej przeglądarce.",
   "lang": "pl",
   "start_url": "./?source=pwa",
