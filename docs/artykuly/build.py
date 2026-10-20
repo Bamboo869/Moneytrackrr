@@ -49,3 +49,7 @@ js=json.dumps(out,ensure_ascii=False).replace('</','<\\/')
 s=s[:i]+js+s[end:]
 open(P,'w').write(s)
 print(len(out),[ (a['kind'],a['slug']) for a in out])
+
+# v0.22: statyczne strony artykułów + mapa strony
+import importlib.util as _u
+_s=_u.spec_from_file_location('pages',A+'pages.py');_m=_u.module_from_spec(_s);_s.loader.exec_module(_m);_m.build()
