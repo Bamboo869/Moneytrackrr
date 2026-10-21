@@ -8,7 +8,8 @@ def md(fn):
   title,summary=head.split('\n',1)
   return title.strip(),summary.strip(),body.strip()
 NEW=[ # key, kind, slug, tag, date, cover, alt, featured
- ('n7','news','ceny-paliw-maksymalne-20-pazdziernika-2026','Paliwa','2026-10-20','1646836724019-0e0f16757c93','Tankowanie samochodu na stacji paliw',True),
+ ('n8','news','wynagrodzenia-wrzesien-2026-realne-place','Praca','2026-10-21','1767423646401-cd5b90ba5e11','Plik polskich banknotów w portfelu',True),
+ ('n7','news','ceny-paliw-maksymalne-20-pazdziernika-2026','Paliwa','2026-10-20','1646836724019-0e0f16757c93','Tankowanie samochodu na stacji paliw',False),
  ('n5','news','rosja-polska-grozby-finanse','Bezpieczeństwo','2026-10-18','1740759009286-606a45347231','Polska flaga na wietrze',False),
  ('n6','news','ai-banka-wstrzas-gieldy-pazdziernik-2026','Rynki','2026-10-17','1562408590-e32931084e23','Niebieska płytka drukowana',False),
  ('n1','news','ropa-ormuz-portfel','Paliwa','2026-10-15','1518527989017-5baca7a58d3c','Tankowiec na morzu widziany z góry',False),
