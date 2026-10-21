@@ -83,47 +83,20 @@ def md(src):
 
 PENNY='<svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true"><circle cx="32" cy="32" r="29" fill="#e9a915" stroke="#b8800c" stroke-width="2"/><circle cx="32" cy="32" r="24" fill="#ffd24a" stroke="#e9a915" stroke-width="2"/><path d="M14 22 A21 21 0 0 1 30 10" fill="none" stroke="#fff3c2" stroke-width="3" stroke-linecap="round" opacity=".8"/><g fill="#3a2a06"><ellipse cx="25" cy="29" rx="3" ry="3.6"/><ellipse cx="39" cy="29" rx="3" ry="3.6"/></g><circle cx="19" cy="37" r="3" fill="#ff8a8a" opacity=".45"/><circle cx="45" cy="37" r="3" fill="#ff8a8a" opacity=".45"/><path d="M22 37 Q32 46 42 37" fill="none" stroke="#3a2a06" stroke-width="2.6" stroke-linecap="round"/></svg>'
 
-CSS=""":root{--bg:#f6efe2;--panel:#fffaf0;--line:#e6d9bf;--text:#2a2016;--muted:#6b5a44;--acc:#b9722f;--acc2:#c96a1c;color-scheme:light dark}
-@media(prefers-color-scheme:dark){:root{--bg:#14100c;--panel:#1d1711;--line:#352a1f;--text:#f3e9dc;--muted:#b3a38f;--acc:#e09a52;--acc2:#ff9a3c}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;background:var(--bg);color:var(--text);font:18px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif}
-a{color:var(--acc2)}img{max-width:100%;height:auto}
-.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.top-in{max-width:1080px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.logo{font-weight:900;font-size:22px;letter-spacing:-.02em;color:var(--text);text-decoration:none}.logo span{color:var(--acc2)}
-.nav{display:flex;gap:14px;align-items:center;margin-left:auto;font-size:15px;font-weight:600;flex-wrap:wrap}.nav a{color:var(--muted);text-decoration:none}.nav a:hover{color:var(--text)}
-.btn{display:inline-block;background:var(--acc2);color:#fff!important;font-weight:800;padding:9px 16px;border-radius:999px;text-decoration:none}
-main{max-width:760px;margin:0 auto;padding:22px 18px 60px}
-.crumbs{font-size:14px;color:var(--muted)}.crumbs a{color:var(--muted)}
-.tag{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--acc2);background:color-mix(in srgb,var(--acc2) 12%,transparent);padding:4px 10px;border-radius:999px;margin-top:16px}
-h1{font-size:clamp(30px,5vw,44px);line-height:1.15;letter-spacing:-.02em;margin:12px 0 10px}
-h2{font-size:26px;line-height:1.25;margin:1.8em 0 .5em}h3{font-size:21px;margin:1.4em 0 .4em}
-.meta{font-size:14.5px;color:var(--muted);margin-bottom:18px}
-.lead{font-size:20px;line-height:1.6;border-left:4px solid var(--acc2);padding-left:16px;margin:0 0 22px}
-.cover{margin:0 0 26px}.cover img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:16px;background:var(--panel)}
-figure{margin:1.6em 0}figure img{border-radius:14px;display:block}figcaption{font-size:14px;color:var(--muted);text-align:center;margin-top:6px}
-blockquote{margin:1.2em 0;padding:.4em 1em;border-left:4px solid var(--line);color:var(--muted)}
-.toc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:0 0 26px;font-size:16px}.toc b{display:block;margin-bottom:4px}.toc ol{margin:0;padding-left:20px}
-.cta{display:flex;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px;margin:36px 0}
-.cta p{margin:0 0 10px;font-size:16.5px;line-height:1.5}.cta b{font-size:19px}
-.ad{margin:30px 0;min-height:0}.ad small{display:none;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}.ad:has(ins[data-ad-status="filled"]) small{display:block}
-.rel h2{font-size:22px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
-.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;text-decoration:none;color:var(--text)}
-.card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}.card div{padding:12px 14px}.card b{display:block;line-height:1.3;font-size:16.5px}.card span{font-size:13px;color:var(--muted)}
-.card p{font-size:14.5px;line-height:1.5;color:var(--muted);margin:6px 0 0}
-.wide{max-width:1080px}
-footer{border-top:1px solid var(--line);font-size:14px;color:var(--muted)}footer div{max-width:1080px;margin:0 auto;padding:22px 18px;display:flex;gap:16px;flex-wrap:wrap}footer a{color:var(--muted)}
-@media(max-width:600px){body{font-size:17px}.nav .hide-s{display:none}.top-in{gap:10px;padding:10px 14px;flex-wrap:nowrap}.logo{font-size:19px;white-space:nowrap}.nav{gap:10px;font-size:14px;flex-wrap:nowrap}.btn{padding:7px 12px;white-space:nowrap}.cta{flex-direction:column;align-items:flex-start}}
-"""
-L={'pl':dict(news='Aktualności',guides='Poradniki',about='O nas',app='Otwórz aplikację',home='Strona główna',read='min czytania',
-             by='Redakcja Money Trackrr',toc='W tym artykule',rel_news='Czytaj też',rel_guide='Inne poradniki',ad='Reklama',
-             cta_t='Sprawdź, dokąd naprawdę płyną Twoje pieniądze',cta_p='Money Trackrr to darmowy tracker wydatków i budżetu. Bez konta, działa offline, dane zostają w Twojej przeglądarce.',
-             cta_b='Otwórz Money Trackrr →',open_app='Otwórz w aplikacji',other='English version',terms='Regulamin',
+L={'pl':dict(news='Aktualności',guides='Poradniki',home='Home',tracker='Money Tracker',about='O nas',read='min czytania',
+             by='Redakcja Money Trackrr',chapters='Spis rozdziałów',intro='Wstęp',pct='przeczytane',all_news='Wszystkie aktualności',all_guides='Wszystkie poradniki',
+             sug_news='Czytaj też',sug_guide='Inne poradniki',ad='Reklama',copy='🔗 Kopiuj link',share='↗ Udostępnij',copied='Skopiowano link ✓',
+             disc='Materiał ma charakter wyłącznie informacyjny i edukacyjny. Nie stanowi porady finansowej, inwestycyjnej, podatkowej ani prawnej.',
+             cta_t='💰 Prowadź budżet za darmo',cta_p='Kalendarz wydatków, budżety i cele oszczędnościowe. Dane zostają w Twojej przeglądarce.',cta_b='Otwórz Money Trackrr',
+             sub='Twoje finanse, rynek i budżet w jednym miejscu',other='English',terms='Regulamin',all='Wszystkie artykuły',
              news_h='Aktualności finansowe',news_i='Najważniejsze wiadomości ze świata i z Polski – wyjaśnione prosto: co się stało i co to znaczy dla Twojego portfela. Zawsze z podanymi źródłami.',
              guides_h='Poradniki o pieniądzach',guides_i='Jak oszczędzać, budżetować, wyjść z długów i korzystać z Money Trackrr – krok po kroku, bez żargonu.'),
-   'en':dict(news='News',guides='Guides',about='About',app='Open the app',home='Home',read='min read',
-             by='Money Trackrr editorial team',toc='In this article',rel_news='Read next',rel_guide='More guides',ad='Advertisement',
-             cta_t='See where your money really goes',cta_p='Money Trackrr is a free expense and budget tracker. No account, works offline, your data stays in your browser.',
-             cta_b='Open Money Trackrr →',open_app='Open in the app',other='Wersja polska',terms='Terms',
+   'en':dict(news='News',guides='Guides',home='Home',tracker='Money Tracker',about='About',read='min read',
+             by='Money Trackrr editorial team',chapters='Chapters',intro='Introduction',pct='read',all_news='All news',all_guides='All guides',
+             sug_news='Read also',sug_guide='More guides',ad='Advertisement',copy='🔗 Copy link',share='↗ Share',copied='Link copied ✓',
+             disc='This material is for information and education only. It is not financial, investment, tax or legal advice.',
+             cta_t='💰 Budget for free',cta_p='Expense calendar, budgets and savings goals. Your data stays in your browser.',cta_b='Open Money Trackrr',
+             sub='Your finances, markets and budget in one place',other='Polski',terms='Terms',all='All articles',
              news_h='Money news',news_i='The most important news from Poland and the world – explained simply: what happened and what it means for your wallet. Always with sources.',
              guides_h='Money guides',guides_i='How to save, budget, get out of debt and use Money Trackrr – step by step, no jargon.')}
 
@@ -131,115 +104,167 @@ def fmt_date(d,lang):
     y,m,dd=map(int,d.split('-'))
     return f'{dd} {MON_PL[m-1]} {y}' if lang=='pl' else f'{dd} {MON_EN[m-1]} {y}'
 def words(t):return len(re.findall(r'\w+',t or ''))
+VER=['']
+# motyw z ustawień aplikacji (ten sam localStorage), ustawiany zanim strona się narysuje – bez mignięcia
+THEME_JS=("<script>(function(){var d=document.documentElement,A={dark:'#4d90fe',light:'#2563eb',cream:'#b9722f',midnight:'#5b9bff',halloween:'#ff7a1a'};"
+          "try{var s=JSON.parse(localStorage.getItem('mt_settings_v1')||'{}'),t=A[s.theme]?s.theme:'dark';d.dataset.theme=t;var a=s.accent||A[t];"
+          "d.style.setProperty('--blue',a);d.style.setProperty('--blue-bg',a+'1f');if(s.spookyAnim===false)d.classList.add('sp-still');}catch(e){d.dataset.theme='dark';}})();</script>")
 
-def shell(lang,title,desc,canon,alt,body,ld,og_img=None,og_type='website',extra_head='',robots='index,follow,max-image-preview:large',wide=False):
+def shell(lang,title,desc,canon,alt,body,ld,og_img=None,og_type='website',extra_head='',robots='index,follow,max-image-preview:large',tab='news',reader=False):
     l=L[lang];other='en' if lang=='pl' else 'pl'
     hl=''
     if alt:
-        hl=f'<link rel="alternate" hreflang="{lang}" href="{BASE}{canon}"><link rel="alternate" hreflang="{other}" href="{BASE}{alt}"><link rel="alternate" hreflang="x-default" href="{BASE}{canon if lang=="pl" else alt}">'
-    nav_news='/aktualnosci/' if lang=='pl' else '/en/news/';nav_g='/poradniki/' if lang=='pl' else '/en/guides/';nav_a='/o-nas/' if lang=='pl' else '/en/about/'
-    lang_link=f'<a class="hide-s" href="{alt}" hreflang="{other}">{"EN" if lang=="pl" else "PL"}</a>' if alt else ''
-    og=f'<meta property="og:image" content="{esc(og_img)}"><meta name="twitter:card" content="summary_large_image">' if og_img else '<meta name="twitter:card" content="summary">'
-    return f'''<!doctype html>
-<html lang="{lang}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(title)}</title>
-<meta name="description" content="{esc(desc)}">
-<meta name="robots" content="{robots}">
-<link rel="canonical" href="{BASE}{canon}">{hl}
-<meta property="og:site_name" content="Money Trackrr"><meta property="og:type" content="{og_type}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{BASE}{canon}"><meta property="og:locale" content="{'pl_PL' if lang=='pl' else 'en_US'}">{og}
-<meta name="theme-color" content="#f6efe2">
-<meta name="google-adsense-account" content="{AD_CLIENT}">
-<link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
-{extra_head}<style>{CSS}</style>
-<script type="application/ld+json">{json.dumps(ld,ensure_ascii=False).replace('</','<\\/')}</script>
-</head>
-<body>
-<header class="top"><div class="top-in"><a class="logo" href="/">Money <span>Trackrr</span></a><nav class="nav"><a href="{nav_news}">{l['news']}</a><a class="hide-s" href="{nav_g}">{l['guides']}</a><a class="hide-s" href="{nav_a}">{l['about']}</a>{lang_link}<a class="btn" href="/#tracker">{l['app']}</a></nav></div></header>
-<main{' class="wide"' if wide else ''}>
-{body}
-</main>
-<footer><div><span>© {datetime.date.today().year} Money Trackrr</span><a href="{nav_a}">{l['about']}</a><a href="{nav_news}">{l['news']}</a><a href="{nav_g}">{l['guides']}</a><a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">TikTok</a><a href="https://buymeacoffee.com/moneytrackrr" rel="noopener">Buy me a coffee</a></div></footer>
-</body>
-</html>
-'''
+        xd=canon if lang=='pl' else alt
+        hl=(f'<link rel="alternate" hreflang="{lang}" href="{BASE}{canon}"><link rel="alternate" hreflang="{other}" href="{BASE}{alt}">'
+            f'<link rel="alternate" hreflang="x-default" href="{BASE}{xd}">')
+    og=(f'<meta property="og:image" content="{esc(og_img)}"><meta name="twitter:card" content="summary_large_image">' if og_img
+        else '<meta name="twitter:card" content="summary">')
+    news_u='/aktualnosci/' if lang=='pl' else '/en/news/';guides_u='/poradniki/' if lang=='pl' else '/en/guides/';about_u='/o-nas/' if lang=='pl' else '/en/about/'
+    def tb(v,ico,lab,href):
+        act='active' if tab==v else ''
+        return f'<button type="button" data-v="{v}" class="{act}" onclick="location.href=\'{href}\'"><span class="ti" aria-hidden="true">{ico}</span><span class="tl">{lab}</span></button>'
+    tabs=tb('home','🏠',l['home'],'/#home')+tb('news','📰',l['news'],news_u)+tb('guides','📚',l['guides'],guides_u)+tb('tracker','💰',l['tracker'],'/#tracker')
+    ib='text-decoration:none;display:inline-flex;align-items:center;justify-content:center'
+    lang_btn=f'<a class="ibtn" href="{alt}" hreflang="{other}" title="{l["other"]}" style="{ib};font-weight:800;font-size:13px">{other.upper()}</a>' if alt else ''
+    ldj=json.dumps(ld,ensure_ascii=False).replace('</','<\\/')
+    loc='pl_PL' if lang=='pl' else 'en_US'
+    vid='view-reader' if reader else 'view-static'
+    return (f'<!doctype html>\n<html lang="{lang}" data-theme="dark">\n<head>\n<meta charset="utf-8">\n'
+     f'<meta name="viewport" content="width=device-width,initial-scale=1">\n<title>{esc(title)}</title>\n'
+     f'<meta name="description" content="{esc(desc)}">\n<meta name="robots" content="{robots}">\n<link rel="canonical" href="{BASE}{canon}">{hl}\n'
+     f'<meta property="og:site_name" content="Money Trackrr"><meta property="og:type" content="{og_type}"><meta property="og:title" content="{esc(title)}">'
+     f'<meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{BASE}{canon}"><meta property="og:locale" content="{loc}">{og}\n'
+     f'<meta name="theme-color" content="#0a0c0f">\n<meta name="google-adsense-account" content="{AD_CLIENT}">\n'
+     f'<link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">\n'
+     f'{THEME_JS}\n<link rel="stylesheet" href="/assets/reader.css?v={VER[0]}">\n<script defer src="/assets/reader.js?v={VER[0]}"></script>\n'
+     f'{extra_head}<script type="application/ld+json">{ldj}</script>\n</head>\n'
+     f'<body data-lang="{lang}" data-copied="{esc(l["copied"])}">\n<div class="page">\n'
+     f'<div class="hero"><div class="hero-in">\n  <div class="hero-top">\n'
+     f'    <div><h1><a href="/">Money <span>Trackrr</span></a></h1><div class="tag">{l["sub"]}</div></div>\n'
+     f'    <div class="hero-right">{lang_btn}<a class="ibtn" href="/#tracker" title="{l["tracker"]}" style="{ib}">💰</a></div>\n'
+     f'  </div>\n  <div class="tabs" id="tabs">{tabs}</div>\n</div></div>\n'
+     f'<section class="view active" id="{vid}">\n{body}\n</section>\n'
+     f'<footer class="site"><div class="foot-in"><span>© Money Trackrr</span><span class="foot-links"><a href="{news_u}">{l["all"]}</a>'
+     f'<a href="{about_u}">{l["about"]}</a><a href="/#terms">{l["terms"]}</a>'
+     f'<a href="https://www.tiktok.com/@moneytrackrr" target="_blank" rel="noopener" class="foot-tt">TikTok @moneytrackrr</a></span>'
+     f'<span class="coffee-wrap"><a class="coffee" href="https://buymeacoffee.com/moneytrackrr" target="_blank" rel="noopener">☕ Buy me a coffee</a></span></div></footer>\n'
+     f'</div>\n</body>\n</html>\n')
 
 def write(path,txt):
     full=os.path.join(SITE,path.strip('/'),'index.html');os.makedirs(os.path.dirname(full),exist_ok=True)
     open(full,'w',encoding='utf-8').write(txt)
 
+READER_JS=open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'reader_src.js'),encoding='utf-8').read()
+
+def spooky_code():
+    s=open(P,encoding='utf-8').read()
+    i=s.index('  const BAT=`');j=s.index('d.innerHTML=h;document.body.insertBefore(d,document.body.firstChild);',i)
+    j=s.index('}',j)+1
+    return s[i:j]
+
+def card_cta(l,ref):
+    return (f'<div class="cta-card"><b>{l["cta_t"]}</b><p>{l["cta_p"]}</p>'
+            f'<a class="cbtn" href="/?ref={ref}#tracker"><button type="button" tabindex="-1">{l["cta_b"]}</button></a></div>')
+
+def article_html(a,lang,A_by_kind):
+    l=L[lang];en=lang=='en'
+    title=a.get('titleEn') if en else a['title'];summ=(a.get('summaryEn') if en else a.get('summary')) or '';body=(a.get('bodyEn') if en else a.get('body')) or ''
+    html_body,chs=md(body)
+    tag=TAG_EN.get(a.get('tag'),a.get('tag')) if en else a.get('tag')
+    guide=a.get('kind')=='guide'
+    k_path=('/en/guides/' if en else '/poradniki/') if guide else ('/en/news/' if en else '/aktualnosci/')
+    k_name=l['guides'] if guide else l['news']
+    cover=img(a.get('cover'),1200);mins=max(1,round(words(body)/200))
+    ads=a.get('tag')!='Aplikacja'
+    ad=(f'<div class="gad" data-gad><span class="gad-lab">{l["ad"]}</span><ins class="adsbygoogle" style="display:block" data-ad-client="{AD_CLIENT}" '
+        f'data-ad-slot="{AD_SLOT}" data-ad-format="auto" data-full-width-responsive="true"></ins></div>') if ads else ''
+    allch=[('ch-top',l['intro'])]+[(cid,re.sub(r'[*]','',t)) for cid,t in chs]
+    lis=''.join(f'<li data-i="{i}" data-c="{cid}"><button type="button" data-i="{i}"><span class="dot"></span><span class="lbl">{esc(t)}</span></button></li>' for i,(cid,t) in enumerate(allch))
+    toc=(f'<nav class="toc" id="rdToc"><div class="toc-h">{l["chapters"]}</div><div class="toc-line"><i class="toc-fill" id="tocFill"></i></div>'
+         f'<ol>{lis}</ol><div class="toc-meta"><b id="tocPct">0%</b> {l["pct"]}</div></nav>')
+    pool=[r for r in A_by_kind('guide' if guide else 'news') if r is not a and (not en or r.get('bodyEn'))]
+    pool=sorted(pool,key=lambda r:((r.get('tag')==a.get('tag')),r.get('date','')),reverse=True)[:4]
+    def sug1(r):
+        href=('/en/a/'+r['slugEn']) if en else ('/a/'+r['slug'])
+        t=r.get('titleEn') if en else r['title'];m=max(1,round(words(r.get('bodyEn') if en else r.get('body'))/200))
+        return f'<a class="sug" href="{href}/"><img loading="lazy" decoding="async" src="{esc(img(r.get("cover"),200))}" alt=""><div><b>{esc(t)}</b><small>{m} {l["read"]}</small></div></a>'
+    sug=''.join(sug1(r) for r in pool)
+    right=(f'<div><div class="sug-h">{l["sug_guide"] if guide else l["sug_news"]}</div>{sug}</div>' if sug else '')+card_cta(l,'article')
+    alt_txt=esc(title if en else (a.get('coverAlt') or title))
+    hero=f'<figure class="rd-hero"><img fetchpriority="high" decoding="async" src="{esc(cover)}"{srcset(a.get("cover"))} alt="{alt_txt}"></figure>' if cover else ''
+    lead=f'<p class="rd-lead">{esc(summ)}</p>' if summ else ''
+    back=l['all_guides'] if guide else l['all_news']
+    out=('<div id="rdProg"></div>\n'
+         f'<div class="rd-top"><a class="btn-small" id="rdBack" href="{k_path}">← <span id="rdBackLbl">{back}</span></a></div>\n'
+         f'<div class="rd-layout{" guide" if guide else ""}" id="rdLayout">\n'
+         f'<aside class="rd-left"><div class="rd-sticky">{toc}</div></aside>\n'
+         '<article class="rd-main" id="rdMain">\n'
+         f'<div class="rd-crumbs"><a href="/">Money Trackrr</a> › <a href="{k_path}">{k_name}</a></div>\n'
+         f'<span class="tagpill">{esc(tag)}</span><h1>{esc(title)}</h1>\n'
+         f'<div class="rd-meta"><span><time datetime="{a["date"]}">{fmt_date(a["date"],lang)}</time></span><span>·</span><span>{mins} {l["read"]}</span><span>·</span><span>{l["by"]}</span></div>\n'
+         f'{lead}\n{hero}\n<div class="rd-body"><div id="ch-top"></div>{html_body}</div>\n'
+         f'<div class="rd-share"><button type="button" class="btn-small" id="rdCopy">{l["copy"]}</button><button type="button" class="btn-small" id="rdShare">{l["share"]}</button></div>\n'
+         f'<div class="rd-disc">{l["disc"]}</div>\n{ad}\n</article>\n'
+         f'<aside class="rd-right"><div class="rd-sticky" id="rdRight">{right}</div></aside>\n</div>')
+    return out,title,summ,body,cover,tag,guide,k_path,k_name,ads
+
 def org():
     return {'@type':'Organization','name':'Money Trackrr','url':BASE+'/','logo':{'@type':'ImageObject','url':BASE+'/icons/icon-512.png'}}
 
 def build():
+    import hashlib
     A=load()
     for a in A:
         a['slugEn']=a.get('slugEn') or slugify(a.get('titleEn') or a['title'])
+    js=READER_JS.replace('__SPOOKY__',spooky_code())
+    os.makedirs(os.path.join(SITE,'assets'),exist_ok=True)
+    open(os.path.join(SITE,'assets','reader.js'),'w',encoding='utf-8').write(js)
+    css=open(os.path.join(SITE,'assets','reader.css'),encoding='utf-8').read()
+    VER[0]=hashlib.md5((css+js).encode()).hexdigest()[:8]
     by_kind=lambda k:sorted([a for a in A if (a.get('kind')=='guide')==(k=='guide')],key=lambda a:a.get('date',''),reverse=True)
-    # wyczyść stare wygenerowane strony
     for d in ['a','en/a']:shutil.rmtree(os.path.join(SITE,d),ignore_errors=True)
-    urls=[]  # (pl_path,en_path,lastmod,indexable)
+    urls=[]
     for a in A:
         for lang in ('pl','en'):
-            l=L[lang];en=lang=='en'
+            en=lang=='en';l=L[lang]
             if en and not a.get('bodyEn'):continue
-            title=a.get('titleEn') if en else a['title'];summ=(a.get('summaryEn') if en else a.get('summary')) or '';body=(a.get('bodyEn') if en else a.get('body')) or ''
             path=f"/en/a/{a['slugEn']}/" if en else f"/a/{a['slug']}/"
             alt=(f"/a/{a['slug']}/" if en else (f"/en/a/{a['slugEn']}/" if a.get('bodyEn') else None))
+            body_html,title,summ,body,cover,tag,guide,k_path,k_name,ads=article_html(a,lang,by_kind)
             thin=len(body)<THIN
-            html_body,chs=md(body)
-            tag=TAG_EN.get(a.get('tag'),a.get('tag')) if en else a.get('tag')
-            kind=a.get('kind','news');k_path=('/en/guides/' if en else '/poradniki/') if kind=='guide' else ('/en/news/' if en else '/aktualnosci/')
-            k_name=l['guides'] if kind=='guide' else l['news']
-            cover=img(a.get('cover'),1200)
-            mins=max(1,round(words(body)/200))
-            toc=('<nav class="toc"><b>'+l['toc']+'</b><ol>'+''.join(f'<li><a href="#{cid}">{esc(re.sub(r"[*]","",t))}</a></li>' for cid,t in chs if not re.match(r'^(W skrócie|In short)$',t))+'</ol></nav>') if len(chs)>=3 else ''
-            ads=a.get('tag')!='Aplikacja'
-            ad=(f'<div class="ad"><small>{l["ad"]}</small><ins class="adsbygoogle" style="display:block" data-ad-client="{AD_CLIENT}" data-ad-slot="{AD_SLOT}" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({{}});</script></div>') if ads else ''
-            rel=[r for r in by_kind(kind) if r is not a and (not en or r.get('bodyEn'))][:3]
-            rel_html=''.join(f'<a class="card" href="{("/en/a/"+r["slugEn"]) if en else ("/a/"+r["slug"])}/"><img loading="lazy" src="{esc(img(r.get("cover"),640))}" alt=""><div><span>{fmt_date(r["date"],lang)}</span><b>{esc(r.get("titleEn") if en else r["title"])}</b></div></a>' for r in rel)
-            app_link=f"/#{'guides' if kind=='guide' else 'news'}/{a['slug']}"
-            body_html=f'''<div class="crumbs"><a href="/">{l['home']}</a> › <a href="{k_path}">{k_name}</a></div>
-<article>
-<span class="tag">{TAG_EMO.get(a.get('tag'),'📰')} {esc(tag)}</span>
-<h1>{esc(title)}</h1>
-<div class="meta"><time datetime="{a['date']}">{fmt_date(a['date'],lang)}</time> · {mins} {l['read']} · {l['by']}</div>
-<p class="lead">{esc(summ)}</p>
-{f'<figure class="cover"><img src="{esc(cover)}"{srcset(a.get("cover"))} alt="{esc(title if en else (a.get("coverAlt") or title))}" fetchpriority="high"></figure>' if cover else ''}
-{toc}
-{html_body}
-</article>
-{ad}
-<aside class="cta">{PENNY}<div><b>{l['cta_t']}</b><p>{l['cta_p']}</p><a class="btn" href="/?ref=article#tracker">{l['cta_b']}</a></div></aside>
-{f'<section class="rel"><h2>{l["rel_guide"] if kind=="guide" else l["rel_news"]}</h2><div class="cards">{rel_html}</div></section>' if rel_html else ''}'''
-            ld=[{'@context':'https://schema.org','@type':'NewsArticle' if kind!='guide' else 'Article','headline':title[:110],'description':summ,
+            ld=[{'@context':'https://schema.org','@type':'Article' if guide else 'NewsArticle','headline':title[:110],'description':summ,
                  'image':[cover] if cover else [],'datePublished':a['date']+'T08:00:00+02:00','dateModified':a['date']+'T08:00:00+02:00',
                  'inLanguage':lang,'author':{'@type':'Organization','name':l['by'],'url':BASE+('/en/about/' if en else '/o-nas/')},
                  'publisher':org(),'mainEntityOfPage':BASE+path,'articleSection':tag},
                 {'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[
-                 {'@type':'ListItem','position':1,'name':l['home'],'item':BASE+'/'},
+                 {'@type':'ListItem','position':1,'name':'Money Trackrr','item':BASE+'/'},
                  {'@type':'ListItem','position':2,'name':k_name,'item':BASE+k_path},
                  {'@type':'ListItem','position':3,'name':title,'item':BASE+path}]}]
-            head=f'<meta property="article:published_time" content="{a["date"]}T08:00:00+02:00">'+(f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={AD_CLIENT}" crossorigin="anonymous"></script>' if ads else '')
+            head=f'<meta property="article:published_time" content="{a["date"]}T08:00:00+02:00">'
+            if ads: head+=f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={AD_CLIENT}" crossorigin="anonymous"></script>'
             desc=summ if len(summ)<=160 else summ[:157].rsplit(' ',1)[0]+'…'
             write(path,shell(lang,f'{title} | Money Trackrr',desc,path,alt,body_html,ld,cover or None,'article',head,
-                             'noindex,follow' if thin else 'index,follow,max-image-preview:large'))
+                             'noindex,follow' if thin else 'index,follow,max-image-preview:large',tab='guides' if guide else 'news',reader=True))
             if not en: urls.append((path,alt,a['date'],not thin))
     # ---- spisy ----
     for lang in ('pl','en'):
         l=L[lang];en=lang=='en'
         for kind in ('news','guide'):
             items=[a for a in by_kind(kind) if not en or a.get('bodyEn')]
-            path=('/en/guides/' if en else '/poradniki/') if kind=='guide' else ('/en/news/' if en else '/aktualnosci/')
-            alt=('/poradniki/' if en else '/en/guides/') if kind=='guide' else ('/aktualnosci/' if en else '/en/news/')
-            h=l['guides_h'] if kind=='guide' else l['news_h'];intro=l['guides_i'] if kind=='guide' else l['news_i']
-            cards=''.join(f'<a class="card" href="{("/en/a/"+a["slugEn"]) if en else ("/a/"+a["slug"])}/"><img loading="lazy" src="{esc(img(a.get("cover"),640))}" alt="{esc(a.get("coverAlt") or "")}"><div><span>{TAG_EMO.get(a.get("tag"),"📰")} {esc(TAG_EN.get(a.get("tag"),a.get("tag")) if en else a.get("tag"))} · {fmt_date(a["date"],lang)}</span><b>{esc(a.get("titleEn") if en else a["title"])}</b><p>{esc((a.get("summaryEn") if en else a.get("summary")) or "")[:150]}…</p></div></a>' for a in items)
-            body=f'<div class="crumbs"><a href="/">{l["home"]}</a></div><h1>{h}</h1><p class="lead">{intro}</p><div class="cards">{cards}</div><aside class="cta">{PENNY}<div><b>{l["cta_t"]}</b><p>{l["cta_p"]}</p><a class="btn" href="/?ref=list#tracker">{l["cta_b"]}</a></div></aside>'
+            guide=kind=='guide'
+            path=('/en/guides/' if en else '/poradniki/') if guide else ('/en/news/' if en else '/aktualnosci/')
+            alt=('/poradniki/' if en else '/en/guides/') if guide else ('/aktualnosci/' if en else '/en/news/')
+            h=l['guides_h'] if guide else l['news_h'];intro=l['guides_i'] if guide else l['news_i']
+            def card(a):
+                href=('/en/a/'+a['slugEn']) if en else ('/a/'+a['slug'])
+                t=a.get('titleEn') if en else a['title'];sm=((a.get('summaryEn') if en else a.get('summary')) or '')[:150]
+                tg=TAG_EN.get(a.get('tag'),a.get('tag')) if en else a.get('tag')
+                return (f'<a class="ls-card" href="{href}/"><img loading="lazy" decoding="async" src="{esc(img(a.get("cover"),640))}" alt="{esc(t)}">'
+                        f'<div><small>{TAG_EMO.get(a.get("tag"),"📰")} {esc(tg)} · {fmt_date(a["date"],lang)}</small><b>{esc(t)}</b><p>{esc(sm)}…</p></div></a>')
+            body=f'<div class="ls-wrap"><h1>{h}</h1><p class="ls-lead">{intro}</p><div class="ls-list">{"".join(card(a) for a in items)}</div></div>'
             ld={'@context':'https://schema.org','@type':'CollectionPage','name':h,'description':intro,'inLanguage':lang,'url':BASE+path,'publisher':org(),
                 'mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'url':BASE+(f'/en/a/{a["slugEn"]}/' if en else f'/a/{a["slug"]}/')} for i,a in enumerate(items)]}}
-            write(path,shell(lang,f'{h} | Money Trackrr',intro[:158],path,alt,body,ld,None,'website','',wide=True))
+            write(path,shell(lang,f'{h} | Money Trackrr',intro[:158],path,alt,body,ld,None,'website','',tab='guides' if guide else 'news'))
     # ---- O nas ----
     ABOUT={'pl':('O nas – kim jesteśmy i jak piszemy','Money Trackrr to darmowe narzędzie do budżetu domowego i serwis z wiadomościami o pieniądzach. Wyjaśniamy, kto za nim stoi i jak powstają artykuły.',
 f'''<h1>O nas</h1><p class="lead">Money Trackrr to mały, niezależny projekt: darmowy tracker wydatków i budżetu oraz serwis, który tłumaczy wiadomości ze świata finansów na język domowego portfela.</p>
@@ -253,7 +278,7 @@ f'''<h1>O nas</h1><p class="lead">Money Trackrr to mały, niezależny projekt: d
 <li><strong>Poprawki.</strong> Jeśli znajdziesz błąd, napisz do nas – poprawimy tekst i zaktualizujemy datę.</li></ul>
 <h2>Finansowanie</h2><p>Projekt jest darmowy. Utrzymują go reklamy Google wyświetlane wyłącznie w artykułach (nigdy w samym trackerze) oraz dobrowolne wsparcie na <a href="https://buymeacoffee.com/moneytrackrr" rel="noopener">Buy me a coffee</a>.</p>
 <h2>Kontakt</h2><p>Najszybciej przez TikToka: <a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">@moneytrackrr</a>.</p>
-<aside class="cta">{PENNY}<div><b>{L['pl']['cta_t']}</b><p>{L['pl']['cta_p']}</p><a class="btn" href="/?ref=about#tracker">{L['pl']['cta_b']}</a></div></aside>'''),
+{card_cta(L['pl'],'about')}'''),
      'en':('About us – who we are and how we write','Money Trackrr is a free household budget tool and a money news site. Here is who is behind it and how our articles are made.',
 f'''<h1>About us</h1><p class="lead">Money Trackrr is a small, independent project: a free expense and budget tracker, plus a site that translates financial news into what it means for your wallet.</p>
 <h2>The tool</h2><p>The tracker runs in your browser and offline, with no account. Your data stays on your device – we never send it to a server or share it with advertisers. You can install it like an app on your phone or computer.</p>
@@ -266,11 +291,11 @@ f'''<h1>About us</h1><p class="lead">Money Trackrr is a small, independent proje
 <li><strong>Corrections.</strong> If you spot a mistake, tell us – we will fix it and update the date.</li></ul>
 <h2>Funding</h2><p>The project is free. It is supported by Google ads shown only in articles (never in the tracker itself) and by voluntary support on <a href="https://buymeacoffee.com/moneytrackrr" rel="noopener">Buy me a coffee</a>.</p>
 <h2>Contact</h2><p>The fastest way is TikTok: <a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">@moneytrackrr</a>.</p>
-<aside class="cta">{PENNY}<div><b>{L['en']['cta_t']}</b><p>{L['en']['cta_p']}</p><a class="btn" href="/?ref=about#tracker">{L['en']['cta_b']}</a></div></aside>''')}
+{card_cta(L['en'],'about')}''')}
     for lang,(t,d,b) in ABOUT.items():
         path='/o-nas/' if lang=='pl' else '/en/about/';alt='/en/about/' if lang=='pl' else '/o-nas/'
         ld={'@context':'https://schema.org','@type':'AboutPage','name':t,'url':BASE+path,'inLanguage':lang,'publisher':org()}
-        write(path,shell(lang,f'{t} | Money Trackrr',d,path,alt,b,ld))
+        write(path,shell(lang,f'{t} | Money Trackrr',d,path,alt,'<div class="about">'+b+'</div>',ld,tab=''))
     # ---- mapa strony ----
     today=datetime.date.today().isoformat();last=max(a['date'] for a in A)
     def u(loc,lm,alts=None,freq='weekly',pr='0.7'):
