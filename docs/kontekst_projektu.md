@@ -75,3 +75,10 @@ Aktualna wersja: **0.20** (v0.20: Google AdSense `ca-pub-6452210585951054` – m
 1. W aplikacji: zalogować się do panelu autora, edytować artykuły/Home.
 2. „Publikuj” → pobrać ZIP → rozpakować → przeciągnąć cały folder (z `index.html` = aktualny plik aplikacji) na Netlify Deploys.
 3. Dane użytkowników zostają w ich przeglądarkach (localStorage) – wdrożenie ich nie kasuje; zalecić eksport/kopię przed większymi zmianami.
+
+
+## v0.23.3 – strony prawne i AdSense
+- `docs/artykuly/legal.py` (wołany z pages.py) generuje /polityka-prywatnosci/, /kontakt/, /regulamin/ + wersje EN (/en/privacy/, /en/contact/, /en/terms/). Regulamin brany z TERMS_HTML w aplikacji, EN przez I18N_EN.exact – nowe zdania regulaminu muszą mieć wpis w słowniku.
+- Adres kontaktowy: kontakt@moneytrackrr.app (wymaga Email Routing w Cloudflare).
+- build.py: artykuły o wojnie/konfliktach dostają `noAds:true` automatycznie (no_ads(): ≥5 słów kluczowych) – brak reklam w aplikacji i na stałej stronie (zasady Google).
+- Stare krótkie poradniki przepisane jako o1–o7 (te same adresy, ~500 słów). Brak stron noindex.

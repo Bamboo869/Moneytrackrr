@@ -88,7 +88,7 @@ L={'pl':dict(news='Aktualności',guides='Poradniki',home='Home',tracker='Money T
              sug_news='Czytaj też',sug_guide='Inne poradniki',ad='Reklama',copy='🔗 Kopiuj link',share='↗ Udostępnij',copied='Skopiowano link ✓',
              disc='Materiał ma charakter wyłącznie informacyjny i edukacyjny. Nie stanowi porady finansowej, inwestycyjnej, podatkowej ani prawnej.',
              cta_t='💰 Prowadź budżet za darmo',cta_p='Kalendarz wydatków, budżety i cele oszczędnościowe. Dane zostają w Twojej przeglądarce.',cta_b='Otwórz Money Trackrr',
-             sub='Twoje finanse, rynek i budżet w jednym miejscu',other='English',terms='Regulamin',all='Wszystkie artykuły',
+             sub='Twoje finanse, rynek i budżet w jednym miejscu',other='English',terms='Regulamin',privacy='Polityka prywatności',contact='Kontakt',all='Wszystkie artykuły',
              news_h='Aktualności finansowe',news_i='Najważniejsze wiadomości ze świata i z Polski – wyjaśnione prosto: co się stało i co to znaczy dla Twojego portfela. Zawsze z podanymi źródłami.',
              guides_h='Poradniki o pieniądzach',guides_i='Jak oszczędzać, budżetować, wyjść z długów i korzystać z Money Trackrr – krok po kroku, bez żargonu.'),
    'en':dict(news='News',guides='Guides',home='Home',tracker='Money Tracker',about='About',read='min read',
@@ -96,7 +96,7 @@ L={'pl':dict(news='Aktualności',guides='Poradniki',home='Home',tracker='Money T
              sug_news='Read also',sug_guide='More guides',ad='Advertisement',copy='🔗 Copy link',share='↗ Share',copied='Link copied ✓',
              disc='This material is for information and education only. It is not financial, investment, tax or legal advice.',
              cta_t='💰 Budget for free',cta_p='Expense calendar, budgets and savings goals. Your data stays in your browser.',cta_b='Open Money Trackrr',
-             sub='Your finances, markets and budget in one place',other='Polski',terms='Terms',all='All articles',
+             sub='Your finances, markets and budget in one place',other='Polski',terms='Terms',privacy='Privacy policy',contact='Contact',all='All articles',
              news_h='Money news',news_i='The most important news from Poland and the world – explained simply: what happened and what it means for your wallet. Always with sources.',
              guides_h='Money guides',guides_i='How to save, budget, get out of debt and use Money Trackrr – step by step, no jargon.')}
 
@@ -145,7 +145,8 @@ def shell(lang,title,desc,canon,alt,body,ld,og_img=None,og_type='website',extra_
      f'  </div>\n  <div class="tabs" id="tabs">{tabs}</div>\n</div></div>\n'
      f'<section class="view active" id="{vid}">\n{body}\n</section>\n'
      f'<footer class="site"><div class="foot-in"><span>© Money Trackrr</span><span class="foot-links"><a href="{news_u}">{l["all"]}</a>'
-     f'<a href="{about_u}">{l["about"]}</a><a href="/#terms">{l["terms"]}</a>'
+     f'<a href="{about_u}">{l["about"]}</a><a href="{"/en/terms/" if lang=="en" else "/regulamin/"}">{l["terms"]}</a>'
+     f'<a href="{"/en/privacy/" if lang=="en" else "/polityka-prywatnosci/"}">{l["privacy"]}</a><a href="{"/en/contact/" if lang=="en" else "/kontakt/"}">{l["contact"]}</a>'
      f'<a href="https://www.tiktok.com/@moneytrackrr" target="_blank" rel="noopener" class="foot-tt">TikTok @moneytrackrr</a></span>'
      f'<span class="coffee-wrap"><a class="coffee" href="https://buymeacoffee.com/moneytrackrr" target="_blank" rel="noopener">☕ Buy me a coffee</a></span></div></footer>\n'
      f'</div>\n</body>\n</html>\n')
@@ -175,7 +176,7 @@ def article_html(a,lang,A_by_kind):
     k_path=('/en/guides/' if en else '/poradniki/') if guide else ('/en/news/' if en else '/aktualnosci/')
     k_name=l['guides'] if guide else l['news']
     cover=img(a.get('cover'),1200);mins=max(1,round(words(body)/200))
-    ads=a.get('tag')!='Aplikacja'
+    ads=a.get('tag')!='Aplikacja' and not a.get('noAds')
     ad=(f'<div class="gad" data-gad><span class="gad-lab">{l["ad"]}</span><ins class="adsbygoogle" style="display:block" data-ad-client="{AD_CLIENT}" '
         f'data-ad-slot="{AD_SLOT}" data-ad-format="auto" data-full-width-responsive="true"></ins></div>') if ads else ''
     allch=[('ch-top',l['intro'])]+[(cid,re.sub(r'[*]','',t)) for cid,t in chs]
@@ -277,7 +278,7 @@ f'''<h1>O nas</h1><p class="lead">Money Trackrr to mały, niezależny projekt: d
 <li><strong>Narzędzia AI.</strong> Przy researchu i redakcji tekstów korzystamy z pomocy narzędzi AI. Fakty sprawdzamy w źródłach podanych pod artykułem.</li>
 <li><strong>Poprawki.</strong> Jeśli znajdziesz błąd, napisz do nas – poprawimy tekst i zaktualizujemy datę.</li></ul>
 <h2>Finansowanie</h2><p>Projekt jest darmowy. Utrzymują go reklamy Google wyświetlane wyłącznie w artykułach (nigdy w samym trackerze) oraz dobrowolne wsparcie na <a href="https://buymeacoffee.com/moneytrackrr" rel="noopener">Buy me a coffee</a>.</p>
-<h2>Kontakt</h2><p>Najszybciej przez TikToka: <a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">@moneytrackrr</a>.</p>
+<h2>Kontakt</h2><p>Napisz na <a href="mailto:kontakt@moneytrackrr.app">kontakt@moneytrackrr.app</a> albo przez TikToka: <a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">@moneytrackrr</a>. Wszystkie sposoby kontaktu znajdziesz na stronie <a href="/kontakt/">Kontakt</a>, a zasady przetwarzania danych w <a href="/polityka-prywatnosci/">Polityce prywatności</a>.</p>
 {card_cta(L['pl'],'about')}'''),
      'en':('About us – who we are and how we write','Money Trackrr is a free household budget tool and a money news site. Here is who is behind it and how our articles are made.',
 f'''<h1>About us</h1><p class="lead">Money Trackrr is a small, independent project: a free expense and budget tracker, plus a site that translates financial news into what it means for your wallet.</p>
@@ -290,12 +291,16 @@ f'''<h1>About us</h1><p class="lead">Money Trackrr is a small, independent proje
 <li><strong>AI tools.</strong> We use AI tools to help with research and editing. Facts are checked against the sources listed below each article.</li>
 <li><strong>Corrections.</strong> If you spot a mistake, tell us – we will fix it and update the date.</li></ul>
 <h2>Funding</h2><p>The project is free. It is supported by Google ads shown only in articles (never in the tracker itself) and by voluntary support on <a href="https://buymeacoffee.com/moneytrackrr" rel="noopener">Buy me a coffee</a>.</p>
-<h2>Contact</h2><p>The fastest way is TikTok: <a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">@moneytrackrr</a>.</p>
+<h2>Contact</h2><p>Email <a href="mailto:kontakt@moneytrackrr.app">kontakt@moneytrackrr.app</a> or reach us on TikTok: <a href="https://www.tiktok.com/@moneytrackrr" rel="noopener">@moneytrackrr</a>. See the <a href="/en/contact/">Contact</a> page for details and our <a href="/en/privacy/">Privacy policy</a> for how we handle data.</p>
 {card_cta(L['en'],'about')}''')}
     for lang,(t,d,b) in ABOUT.items():
         path='/o-nas/' if lang=='pl' else '/en/about/';alt='/en/about/' if lang=='pl' else '/o-nas/'
         ld={'@context':'https://schema.org','@type':'AboutPage','name':t,'url':BASE+path,'inLanguage':lang,'publisher':org()}
         write(path,shell(lang,f'{t} | Money Trackrr',d,path,alt,'<div class="about">'+b+'</div>',ld,tab=''))
+    # v0.23.3: polityka prywatności, kontakt, regulamin
+    import importlib.util as _u
+    _s=_u.spec_from_file_location('legal',os.path.join(os.path.dirname(os.path.abspath(__file__)),'legal.py'));LG=_u.module_from_spec(_s);_s.loader.exec_module(LG)
+    LG.build(shell,write,org,BASE,card_cta,L,P)
     # ---- mapa strony ----
     today=datetime.date.today().isoformat();last=max(a['date'] for a in A)
     def u(loc,lm,alts=None,freq='weekly',pr='0.7'):
@@ -306,6 +311,8 @@ f'''<h1>About us</h1><p class="lead">Money Trackrr is a small, independent proje
           u('/aktualnosci/',last,[('pl','/aktualnosci/'),('en','/en/news/')],'daily','0.9'),u('/en/news/',last,[('pl','/aktualnosci/'),('en','/en/news/')],'daily','0.8'),
           u('/poradniki/',last,[('pl','/poradniki/'),('en','/en/guides/')],'weekly','0.8'),u('/en/guides/',last,[('pl','/poradniki/'),('en','/en/guides/')],'weekly','0.7'),
           u('/o-nas/',today,[('pl','/o-nas/'),('en','/en/about/')],'monthly','0.4'),u('/en/about/',today,[('pl','/o-nas/'),('en','/en/about/')],'monthly','0.3')]
+    for a_,b_ in (('/polityka-prywatnosci/','/en/privacy/'),('/kontakt/','/en/contact/'),('/regulamin/','/en/terms/')):
+        rows+=[u(a_,today,[('pl',a_),('en',b_)],'yearly','0.3'),u(b_,today,[('pl',a_),('en',b_)],'yearly','0.2')]
     for pl,en,lm,ok in urls:
         if not ok:continue
         alts=[('pl',pl)]+([('en',en)] if en else [])

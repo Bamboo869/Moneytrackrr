@@ -24,6 +24,14 @@ NEW=[ # key, kind, slug, tag, date, cover, alt, featured
  ('t2','guide','budzety-cele-stale-oplaty','Aplikacja','2026-10-16','1578091436046-ecd3f4fe6992','Słoik z monetami z napisem „house fund”',False),
  ('t3','guide','pieniazek-porady-bez-ai','Aplikacja','2026-10-16','1619718082268-5a1b74988497','Złote i srebrne monety',False),
  ('t4','guide','kopia-zapasowa-telefon','Aplikacja','2026-10-16','1713947506242-8fcae733d158','Kobieta przy stole patrząca w telefon',False),
+# v0.23.3: stare, zbyt krótkie poradniki napisane od nowa (te same adresy)
+ ('o1','guide','inflacja-po-ludzku','Inflacja','2026-10-25','1654370849443-0aa7e3d2920f','Etykieta z ceną',False),
+ ('o2','guide','procent-skladany','Oszczędzanie','2026-10-25','1583902340377-052b7159b97b','Monety w szklanym słoiku',False),
+ ('o3','guide','zasada-50-30-20','Budżet','2026-10-25','1648201637025-1c77b9be3013','Kalkulator i długopis na kartce',False),
+ ('o4','guide','jak-zalozyc-konto-oszczednosciowe','Oszczędzanie','2026-10-25','1589758438368-0ad531db3366','Karta płatnicza',False),
+ ('o5','guide','automatyczne-odkladanie','Oszczędzanie','2026-10-25','1633158829556-6ea20ad39b4f','Słoik z napisem savings',False),
+ ('o6','guide','poduszka-finansowa','Bezpieczeństwo','2026-10-25','1634474588707-de99f09285c0','Słoik z oszczędnościami w dłoniach',False),
+ ('o7','guide','budzet-miesieczny','Budżet','2026-10-25','1642043175009-5997b3a078d8','Kalkulator na stosie dokumentów',False),
 ]
 OLD_COVERS={'s_inflacja-po-ludzku':('1654370849443-0aa7e3d2920f','Etykieta z ceną'),
  's_procent-skladany':('1583902340377-052b7159b97b','Monety w szklanym słoiku'),
@@ -37,9 +45,14 @@ i=s.index('const DEFAULT_ARTICLES=')+len('const DEFAULT_ARTICLES=')
 old,end=json.JSONDecoder().raw_decode(s,i)
 assert s[end]==';'
 out=[]
+WAR=re.compile(r'(?i)wojn|rosj|ukrai|putin|zbroj|militar|NATO|inwazj|ostrza|rakiet|dron')
+def no_ads(*txt):
+  # zasady Google: nie zarabiamy na treściach o wojnie (m.in. w Ukrainie) – takie artykuły są bez reklam
+  return len(WAR.findall(' '.join(txt)))>=5
 for k,kind,slug,tag,date,cov,alt,feat in NEW:
   t,su,b=md(k+'_pl.md');te,sue,be=md(k+'_en.md')
   out.append({'id':'s_'+slug,'kind':kind,'slug':slug,'tag':tag,'date':date,'status':'published','title':t,'summary':su,'body':b,'author':'Money Trackrr','titleEn':te,'summaryEn':sue,'bodyEn':be,'featured':feat,'cover':U(cov),'coverAlt':alt,'gallery':[]})
+  if no_ads(t,b):out[-1]['noAds']=True
 for a in old:
   a=dict(a)
   if a['id'] in [x['id'] for x in out]:continue
