@@ -8,7 +8,8 @@ def md(fn):
   title,summary=head.split('\n',1)
   return title.strip(),summary.strip(),body.strip()
 NEW=[ # key, kind, slug, tag, date, cover, alt, featured
- ('n9','news','nowe-progi-podatkowe-pit-2027','Podatki','2026-10-23','1554224155-6726b3ff858f','Osoba z dokumentami, długopisem i kalkulatorem',True),
+ ('n10','news','slaby-zloty-kurs-euro-dolara-pazdziernik-2026','Rynki','2026-10-25','1580048915913-4f8f5cb481c4','Ręka trzymająca banknoty euro i dolarów',True),
+ ('n9','news','nowe-progi-podatkowe-pit-2027','Podatki','2026-10-23','1554224155-6726b3ff858f','Osoba z dokumentami, długopisem i kalkulatorem',False),
  ('n8','news','wynagrodzenia-wrzesien-2026-realne-place','Praca','2026-10-21','1767423646401-cd5b90ba5e11','Plik polskich banknotów w portfelu',False),
  ('n7','news','ceny-paliw-maksymalne-20-pazdziernika-2026','Paliwa','2026-10-20','1646836724019-0e0f16757c93','Tankowanie samochodu na stacji paliw',False),
  ('n5','news','rosja-polska-grozby-finanse','Bezpieczeństwo','2026-10-18','1740759009286-606a45347231','Polska flaga na wietrze',False),
