@@ -8,7 +8,8 @@ def md(fn):
   title,summary=head.split('\n',1)
   return title.strip(),summary.strip(),body.strip()
 NEW=[ # key, kind, slug, tag, date, cover, alt, featured
- ('n11','news','wszystkich-swietych-2026-ile-wydamy','Budżet','2026-10-26','1775128634801-9bb665957274','Znicze świecące nocą na cmentarzu',True),
+ ('n12','news','oplata-2-euro-paczki-spoza-ue-listopad-2026','Podatki','2026-10-27','1566576721346-d4a3b4eaeb55','Osoba podająca kartonową paczkę',True),
+ ('n11','news','wszystkich-swietych-2026-ile-wydamy','Budżet','2026-10-26','1775128634801-9bb665957274','Znicze świecące nocą na cmentarzu',False),
  ('n10','news','slaby-zloty-kurs-euro-dolara-pazdziernik-2026','Rynki','2026-10-25','1580048915913-4f8f5cb481c4','Ręka trzymająca banknoty euro i dolarów',False),
  ('n9','news','nowe-progi-podatkowe-pit-2027','Podatki','2026-10-23','1554224155-6726b3ff858f','Osoba z dokumentami, długopisem i kalkulatorem',False),
  ('n8','news','wynagrodzenia-wrzesien-2026-realne-place','Praca','2026-10-21','1767423646401-cd5b90ba5e11','Plik polskich banknotów w portfelu',False),
