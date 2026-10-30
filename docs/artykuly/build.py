@@ -8,7 +8,8 @@ def md(fn):
   title,summary=head.split('\n',1)
   return title.strip(),summary.strip(),body.strip()
 NEW=[ # key, kind, slug, tag, date, cover, alt, featured
- ('n14','news','akcyza-alkohol-oplata-cukrowa-vat-napoje-2027','Podatki','2026-10-29','1718347478205-b896d59b1d6b','Półki sklepowe pełne butelek z alkoholem',True),
+ ('n15','news','fed-ebc-stopy-bez-zmian-rpp-listopad-2026','Rynki','2026-10-30','1724482606633-fa74fe4f5de1','Osoba wkładająca banknot do kalkulatora',True),
+ ('n14','news','akcyza-alkohol-oplata-cukrowa-vat-napoje-2027','Podatki','2026-10-29','1718347478205-b896d59b1d6b','Półki sklepowe pełne butelek z alkoholem',False),
  ('n13','news','obligacje-skarbowe-listopad-2026-oprocentowanie-inflacja','Oszczędzanie','2026-10-28','1633158829585-23ba8f7c8caf','Osoba układająca monety w stosy',False),
  ('n12','news','oplata-2-euro-paczki-spoza-ue-listopad-2026','Podatki','2026-10-27','1566576721346-d4a3b4eaeb55','Osoba podająca kartonową paczkę',False),
  ('n11','news','wszystkich-swietych-2026-ile-wydamy','Budżet','2026-10-26','1775128634801-9bb665957274','Znicze świecące nocą na cmentarzu',False),
